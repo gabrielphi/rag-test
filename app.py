@@ -9,7 +9,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 
 # --- Configurações ---
 VECTOR_DB_FOLDER = "vector_db"
-EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 LLM_MODEL = "llama3.2:3b"
 
 def main():
