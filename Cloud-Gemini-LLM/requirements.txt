@@ -1,0 +1,7 @@
+langchain-chroma
+langchain-huggingface==0.1.2
+langchain-google-genai
+langchain-community
+langchain-text-splitters
+pypdf
+python-dotenv
