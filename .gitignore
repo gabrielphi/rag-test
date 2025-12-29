@@ -1,3 +1,6 @@
 vector_db/*
-documentos/*
+*/documentos/*
 .env
+*.pdf
+*/vector_db/*
+*.sqlite3

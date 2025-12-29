@@ -1,7 +1,10 @@
+langchain>=0.3.0
+langchain-community
+langchain-core
 langchain-chroma
 langchain-huggingface==0.1.2
 langchain-google-genai
-langchain-community
-langchain-text-splitters
+chromadb
 pypdf
+sentence-transformers
 python-dotenv

@@ -16,7 +16,7 @@ VECTOR_DB_FOLDER = "vector_db"
 EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 # O modelo solicitado foi "gemini-2.5 Flash", mas assumindo que seja o atual "gemini-1.5-flash" ou "gemini-2.0-flash-exp".
 # Caso "gemini-2.5" seja lançado, basta alterar aqui.
-LLM_MODEL = "gemini-1.5-flash"
+LLM_MODEL = "gemini-2.5-flash"
 
 def main():
     # 1. Verificar se o banco vetorial existe
