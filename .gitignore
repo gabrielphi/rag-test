@@ -1,6 +1,17 @@
-vector_db/*
-*/documentos/*
+# Python / Cache
+__pycache__/
+
+# Environment Variables
 .env
+
+# Data and DB Folders (Recursive)
+vector_db/
+mongo-data/
+*.wt
+# Documents
+documentos/
 *.pdf
-*/vector_db/*
+
+# Other
 *.sqlite3
+chroma.sqlite3

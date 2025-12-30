@@ -10,7 +10,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 # --- Configurações ---
 VECTOR_DB_FOLDER = "vector_db"
 EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-LLM_MODEL = "llama3.2:3b"
+LLM_MODEL = "llama3.1:8b"
 
 def main():
     # 1. Verificar se o banco vetorial existe

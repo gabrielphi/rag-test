@@ -5,5 +5,10 @@ langchain-chroma
 langchain-huggingface==0.1.2
 langchain-ollama==0.2.0
 chromadb
-pypdf
 sentence-transformers
+bitsandbytes
+accelerate
+torch
+transformers
+fastapi
+uvicorn

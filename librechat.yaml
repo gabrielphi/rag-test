@@ -1,0 +1,31 @@
+version: 1.0.9
+
+cache: true
+
+endpoints:
+  custom:
+    - name: "Self Hosted RAG"
+      apiKey: "sk-no-key-needed"
+      baseURL: "http://host.docker.internal:8000/v1"
+      models:
+        default: ["llama3.1:8b"]
+        fetch: false
+      titleConvo: true
+      titleModel: "llama3.1:8b"
+      summarize: false
+      summaryModel: "llama3.1:8b"
+      forcePrompt: false
+      modelDisplayLabel: "Llama 3.1 RAG"
+
+    - name: "Gemini Cloud RAG"
+      apiKey: "sk-no-key-needed"
+      baseURL: "http://cloud-gemini-rag:8001/v1"
+      models:
+        default: ["gemini-2.5-flash"]
+        fetch: false
+      titleConvo: true
+      titleModel: "gemini-2.5-flash"
+      summarize: false
+      summaryModel: "gemini-2.5-flash"
+      forcePrompt: false
+      modelDisplayLabel: "Gemini 2.5 RAG"

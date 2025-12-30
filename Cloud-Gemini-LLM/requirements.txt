@@ -3,8 +3,8 @@ langchain-community
 langchain-core
 langchain-chroma
 langchain-huggingface==0.1.2
-langchain-google-genai
-chromadb
-pypdf
+langchain-ollama==0.2.0
 sentence-transformers
 python-dotenv
+fastapi
+uvicorn

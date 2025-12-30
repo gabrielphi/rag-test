@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  librechat:
+    image: ghcr.io/danny-avila/librechat-dev:latest
+    container_name: librechat
+    ports:
+      - "3080:3080"
+    depends_on:
+      - mongodb
+      - cloud-gemini-rag
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: always
+    environment:
+      - HOST=0.0.0.0
+      - MONGO_URI=mongodb://mongodb:27017/librechat
+      - DOMAIN_CLIENT=http://localhost:3080
+      - DOMAIN_SERVER=http://localhost:3080
+      - ENDPOINTS=custom
+    volumes:
+      - ./librechat.yaml:/app/librechat.yaml
+      - ./images:/app/client/public/images
+      - ./logs:/app/api/logs
+
+  mongodb:
+    image: mongo
+    restart: always
+    volumes:
+      - ./mongo-data:/data/db
+    command: mongod --noauth
+
+  cloud-gemini-rag:
+    build:
+      context: ./Cloud-Gemini-LLM
+      dockerfile: Dockerfile
+    container_name: cloud-gemini-rag
+    ports:
+      - "8001:8001"
+    env_file:
+      - ./Cloud-Gemini-LLM/.env
+    volumes:
+      - ./Cloud-Gemini-LLM/vector_db:/app/vector_db # Persist vector DB
