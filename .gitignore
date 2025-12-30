@@ -11,7 +11,9 @@ mongo-data/
 # Documents
 documentos/
 *.pdf
-
+images/
+logs/
+flashrank_cache/
 # Other
 *.sqlite3
 chroma.sqlite3

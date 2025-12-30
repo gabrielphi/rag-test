@@ -16,6 +16,7 @@ endpoints:
       summaryModel: "llama3.1:8b"
       forcePrompt: false
       modelDisplayLabel: "Llama 3.1 RAG"
+      stream: true
 
     - name: "Gemini Cloud RAG"
       apiKey: "sk-no-key-needed"

@@ -1,10 +1,13 @@
 import os
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from typing import List, Optional, Dict, Any
 import time
+import json
+import asyncio
+from typing import List, Optional, Dict, Any
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import StreamingResponse
+from pydantic import BaseModel
 
-# LangChain Imports
+# --- LangChain Imports ---
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_ollama import OllamaLLM
@@ -12,30 +15,45 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
-# --- Configurations ---
+# --- Otimização: Imports para Re-ranking ---
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain.retrievers.document_compressors import FlashrankRerank
+from flashrank import Ranker
+
+# --- Configurações ---
 VECTOR_DB_FOLDER = "vector_db"
 EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-LLM_MODEL = "llama3.1:8b"
+LLM_MODEL = "llama3.1:8b" 
+# CORREÇÃO: Aspas fechadas corretamente na mesma linha
+RERANK_MODEL_NAME = "ms-marco-MiniLM-L-12-v2"
 
 app = FastAPI(title="Self-Hosted RAG API")
 
-# Global variables to hold the chain
+# Variável Global para a Chain
 rag_chain = None
 
+# --- Modelos Pydantic (Compatíveis com LibreChat/OpenAI) ---
 class Message(BaseModel):
     role: str
     content: str
-    
+
 class ChatCompletionRequest(BaseModel):
     model: str
     messages: List[Message]
     stream: Optional[bool] = False
+    temperature: Optional[float] = None
+    class Config:
+        extra = "ignore"
 
-# Response models to mimic OpenAI format roughly
+class Usage(BaseModel):
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    total_tokens: int = 0
+
 class Choice(BaseModel):
     index: int
     message: Message
-    finish_reason: str
+    finish_reason: Optional[str] = "stop"
 
 class ChatCompletionResponse(BaseModel):
     id: str
@@ -43,36 +61,64 @@ class ChatCompletionResponse(BaseModel):
     created: int
     model: str
     choices: List[Choice]
+    usage: Usage
 
+# --- Funções Auxiliares de Stream ---
+async def generate_stream(query: str, model: str):
+    request_id = f"chatcmpl-{int(time.time())}"
+    created_time = int(time.time())
+
+    # Chunk inicial
+    yield f"data: {json.dumps({'id': request_id, 'object': 'chat.completion.chunk', 'created': created_time, 'model': model, 'choices': [{'index': 0, 'delta': {'role': 'assistant'}, 'finish_reason': None}]})}\n\n"
+
+    sources_text = ""
+    async for chunk in rag_chain.astream({"input": query}):
+        if 'answer' in chunk and chunk['answer']:
+            yield f"data: {json.dumps({'id': request_id, 'object': 'chat.completion.chunk', 'created': created_time, 'model': model, 'choices': [{'index': 0, 'delta': {'content': chunk['answer']}, 'finish_reason': None}]})}\n\n"
+        
+        if 'context' in chunk:
+            for doc in chunk['context']:
+                src = doc.metadata.get('source', 'unknown')
+                page = doc.metadata.get('page', '?')
+                sources_text += f"\n- {src} (p. {page})"
+
+    if sources_text:
+        yield f"data: {json.dumps({'id': request_id, 'object': 'chat.completion.chunk', 'created': created_time, 'model': model, 'choices': [{'index': 0, 'delta': {'content': f'\n\n**Fontes:**{sources_text}'}, 'finish_reason': None}]})}\n\n"
+
+    yield f"data: {json.dumps({'id': request_id, 'object': 'chat.completion.chunk', 'created': created_time, 'model': model, 'choices': [{'index': 0, 'delta': {}, 'finish_reason': 'stop'}]})}\n\n"
+    yield "data: [DONE]\n\n"
+
+# --- Inicialização da Chain ---
 @app.on_event("startup")
 async def startup_event():
     global rag_chain
-    print("🔄 Initializing RAG Chain...")
+    print("🔄 Inicializando RAG Avançado (MMR + Re-rank)...")
     
     if not os.path.exists(VECTOR_DB_FOLDER):
-        print(f"❌ Error: Directory '{VECTOR_DB_FOLDER}' not found.")
-        # We don't raise error here to allow server to start, but requests will fail
+        print(f"❌ Erro: Pasta '{VECTOR_DB_FOLDER}' não encontrada.")
         return
 
-    # Setup Embeddings & Vector DB
+    # 1. Embeddings e Vector Store
     embedding_function = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME)
-    vectorstore = Chroma(
-        persist_directory=VECTOR_DB_FOLDER,
-        embedding_function=embedding_function
+    vectorstore = Chroma(persist_directory=VECTOR_DB_FOLDER, embedding_function=embedding_function)
+
+    # 2. Retriever com MMR (Busca por Diversidade)
+    base_retriever = vectorstore.as_retriever(
+        search_type="mmr",
+        search_kwargs={"k": 5, "fetch_k": 15, "lambda_mult": 0.6}
     )
-    retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+    flashrank_client = Ranker(model_name=RERANK_MODEL_NAME, cache_dir="flashrank_cache")
+    # 3. Re-ranker (Flashrank)
+    compressor = FlashrankRerank(client=flashrank_client)
+    
+    # 4. Retriever Otimizado
+    retriever = ContextualCompressionRetriever(
+        base_compressor=compressor, 
+        base_retriever=base_retriever
+    )
 
-    # Setup LLM
-    try:
-        llm = OllamaLLM(
-            model=LLM_MODEL,
-            temperature=0.1,
-        )
-    except Exception as e:
-        print(f"❌ Error setting up Ollama: {e}")
-        return
+    # 5. LLM e Prompt
 
-    # Setup Prompt
     system_prompt = (
         "Você é um assistente útil e preciso. "
         "Use APENAS os contextos fornecidos abaixo para responder à pergunta do usuário. "
@@ -80,62 +126,34 @@ async def startup_event():
         "Responda sempre em Português do Brasil.\n\n"
         "{context}"
     )
-    
+    llm = OllamaLLM(model=LLM_MODEL, temperature=0.1)
     prompt = ChatPromptTemplate.from_messages([
         ("system", system_prompt),
         ("human", "{input}"),
     ])
 
-    # Create Chain
-    question_answer_chain = create_stuff_documents_chain(llm, prompt)
-    rag_chain = create_retrieval_chain(retriever, question_answer_chain)
-    print("✅ RAG Chain ready!")
+    # 6. Construção da Chain
+    qa_chain = create_stuff_documents_chain(llm, prompt)
+    rag_chain = create_retrieval_chain(retriever, qa_chain)
+    print("🚀 API RAG Pronta para uso!")
 
-@app.post("/v1/chat/completions", response_model=ChatCompletionResponse)
+# --- Endpoints ---
+@app.post("/v1/chat/completions")
 async def chat_completions(request: ChatCompletionRequest):
-    global rag_chain
     if not rag_chain:
-        raise HTTPException(status_code=503, detail="RAG Chain not initialized (Vector DB missing or Ollama down?)")
+        raise HTTPException(status_code=503, detail="RAG não inicializado.")
 
-    # Extract the last user message
-    last_message = request.messages[-1]
-    if last_message.role != "user":
-        raise HTTPException(status_code=400, detail="Last message must be from user")
+    query = request.messages[-1].content
 
-    query = last_message.content
+    if request.stream:
+        return StreamingResponse(generate_stream(query, request.model), media_type="text/event-stream")
 
-    try:
-        # Run retrieval chain
-        response = rag_chain.invoke({"input": query})
-        answer = response['answer']
-        
-        # We could also append source info if we wanted, but for standard chat interface 
-        # let's just return the answer. 
-        # Optionally, we can append sources to the answer text.
-        
-        context_docs = response.get("context", [])
-        sources_text = "\n\n**Fontes:**\n"
-        if context_docs:
-            for doc in context_docs:
-                src = os.path.basename(doc.metadata.get('source', 'unknown'))
-                page = doc.metadata.get('page', '?')
-                sources_text += f"- {src} (p. {page})\n"
-            answer += sources_text
-        
-        return ChatCompletionResponse(
-            id="chatcmpl-123", # Dummy ID
-            object="chat.completion",
-            created=int(time.time()),
-            model=request.model,
-            choices=[
-                Choice(
-                    index=0,
-                    message=Message(role="assistant", content=answer),
-                    finish_reason="stop"
-                )
-            ]
-        )
-
-    except Exception as e:
-        print(f"Error processing request: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+    response = await rag_chain.ainvoke({"input": query})
+    return ChatCompletionResponse(
+        id=f"chatcmpl-{int(time.time())}",
+        object="chat.completion",
+        created=int(time.time()),
+        model=request.model,
+        choices=[Choice(index=0, message=Message(role="assistant", content=response['answer']))],
+        usage=Usage()
+    )
