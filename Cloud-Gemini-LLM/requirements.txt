@@ -4,6 +4,7 @@ langchain-core
 langchain-chroma
 langchain-huggingface==0.1.2
 langchain-ollama==0.2.0
+langchain-google-genai
 sentence-transformers
 python-dotenv
 fastapi
