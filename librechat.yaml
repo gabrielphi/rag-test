@@ -8,12 +8,12 @@ endpoints:
       apiKey: "sk-no-key-needed"
       baseURL: "http://host.docker.internal:8000/v1"
       models:
-        default: ["llama3.1:8b"]
+        default: ["gemma3:12b"]
         fetch: false
       titleConvo: true
-      titleModel: "llama3.1:8b"
+      titleModel: "gemma3:12b"
       summarize: false
-      summaryModel: "llama3.1:8b"
+      summaryModel: "gemma3:12b"
       forcePrompt: false
       modelDisplayLabel: "Llama 3.1 RAG"
       stream: true
