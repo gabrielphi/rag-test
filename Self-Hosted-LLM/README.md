@@ -1,78 +1,70 @@
-# 🧠 Local RAG Chatbot
+# Self-Hosted Generic RAG System
 
-Uma aplicação de **RAG (Retrieval-Augmented Generation)** totalmente local, que permite conversar com seus documentos PDF e TXT usando **Ollama** e **LangChain**.
+Este projeto é um sistema de **RAG (Retrieval-Augmented Generation)** hospedado localmente, projetado para transformar qualquer coleção de documentos de texto em uma Base de Conhecimento Inteligente.
 
-## 🚀 Funcionalidades
+Diferente de sistemas rígidos, este projeto se adapta à **sua estrutura de pastas**. Não importa se você está organizando documentos jurídicos, técnicos, receitas ou campanhas de RPG: a pasta define o contexto.
 
-- **100% Local**: Nenhum dado sai da sua máquina.
-- **Suporte a PDFs e TXT**: Ingestão de múltiplos arquivos.
-- **Citações**: Indica exatamente qual documento e página foi usado para a resposta.
-- **Embeddings Multilíngues**: Configurado com `paraphrase-multilingual-MiniLM-L12-v2` para melhor performance em Português.
+## 🚀 Principais Funcionalidades
 
-## 📋 Pré-requisitos
+-   **Modelos Locais (Ollama)**: Privacidade total. Seus documentos nunca saem da sua máquina.
+-   **Categorização Dinâmica**: O sistema entende o contexto baseado no nome das suas pastas (Ex: `Marketing/CampanhaQ1.txt` -> Contexto: Marketing, Entidade: CampanhaQ1).
+-   **Busca Híbrida Inteligente**: Combina **Vetores** (significado) com **BM25** (palavras-chave).
+-   **Índices e Listas**: Prioriza arquivos de índice (ex: `00_Resumo.txt`) quando você pede uma visão geral.
+-   **Cross-Reference**: Entende quando você pergunta sobre "Projeto X" no contexto de "Financeiro" e cruza as informações.
 
-1. **Python 3.12+** instalado.
-2. **[Ollama](https://ollama.com/)** instalado e rodando.
-3. Modelo **Llama 3.2** (3B) baixado no Ollama:
-   ```bash
-   ollama pull llama3.2:3b
-   ```
+## 📂 Como Organizar seus Documentos
 
-## 🛠️ Instalação
+A "inteligência" do sistema vem da sua organização. Use a pasta `documentos/` como raiz.
 
-1. Clone ou baixe este repositório.
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### Estrutura Recomendada
 
-## ⚙️ Como Usar
-
-### 1. Preparar Documentos
-Coloque seus arquivos `.pdf` e `.txt` dentro da pasta:
-```
-/documentos
+```text
+documentos/
+├── [CATEGORIA 1] (Ex: Tecnologia)
+│   ├── [ENTIDADE A].txt (Ex: Python.txt)
+│   ├── [ENTIDADE B].txt (Ex: Docker.txt)
+│   └── 00_INDICE_TECNOLOGIA.txt (Resumo geral desta pasta)
+│
+├── [CATEGORIA 2] (Ex: Recursos Humanos)
+│   ├── Politica_Ferias.txt
+│   ├── Onboarding.txt
+│   └── ...
 ```
 
-### 2. Criar Banco Vetorial (Ingestão)
-Execute o script de ingestão sempre que adicionar novos arquivos. Ele processará os textos e salvará no banco de dados local (`vector_db`).
+-   **Nível 1 (Pastas)**: Define a **Categoria Geral** (Contexto).
+-   **Arquivos**: Cada arquivo é tratado como uma **Entidade** ou Tópico Específico.
+-   **Índices**: Arquivos começando com `00_` ou contendo `INDICE` no nome são tratados como prioritários para listagens.
+
+## 🛠️ Instalação e Uso
+
+### Pré-requisitos
+-   Python 3.12+
+-   [Ollama](https://ollama.ai/) instalado e rodando.
+-   Modelo LLM baixado (Recomendado: `gemma2:9b` ou `llama3`).
+
+### 1. Configuração
+1.  Renomeie `.env.example` para `.env`.
+2.  Edite `.env` e ajuste `LLM_MODEL` se necessário.
+
+### 2. Ingestão de Dados
+Sempre que adicionar novos arquivos na pasta `documentos/`, rode:
 ```bash
-python ingest.py
+py -3.12 ingest.py
 ```
-*Saída esperada:*
-```
-✅ [PDF] Carregado: 'Manual Beneficios 2024' (12 páginas)
-🧠 Gerando embeddings...
-🚀 Sucesso! Banco vetorial salvo em 'vector_db'.
-```
+Isso vai ler, categorizar e criar o "cérebro" vetorial do sistema.
 
-### 3. Iniciar o Chat
-Execute o aplicativo principal para conversar com seus dados.
+### 3. Rodando o Chat
+Para iniciar a API e começar a conversar:
 ```bash
-python app.py
+py -3.12 api.py
 ```
+Acesse a interface de documentação (Swagger) em: `http://localhost:8000/docs`
 
-### 4. Interagindo
-- Digite sua pergunta e pressione Enter.
-- O sistema buscará os 3 trechos mais relevantes e gerará uma resposta.
-- Digite `sair` para encerrar.
+## 🧠 Exemplos de Uso
 
-## 📂 Estrutura do Projeto
-
-- `app.py`: Script principal do chat (interface usuário).
-- `ingest.py`: Script para processar documentos e criar o banco vetorial.
-- `requirements.txt`: Lista de dependências Python.
-- `documentos/`: Pasta onde você coloca seus arquivos (PDF/TXT).
-- `vector_db/`: Pasta gerada automaticamente contendo o banco de dados vetorial (ChromaDB).
-
-## ⚠️ Solução de Problemas comuns
-
-**Erro: `vector_db` não encontrado**
-- Rode `python ingest.py` primeiro.
-
-**Erro: `Dimension mismatch`**
-- Certifique-se de que `app.py` e `ingest.py` usem o mesmo `EMBEDDING_MODEL_NAME`.
-- Se mudou o modelo, delete a pasta `vector_db` e rode `ingest.py` novamente.
-
-**Erro: Ollama connection refused**
-- Verifique se o aplicativo do Ollama está aberto e rodando em background.
+-   **Pergunta Específica**: *"O que a politica de férias diz sobre hora extra?"*
+    -   O sistema detecta a entidade "Politica de Ferias" e busca exatamente lá.
+-   **Pergunta Geral**: *"Quais tecnologias usamos?"*
+    -   O sistema busca nos índices da pasta Tecnologia.
+-   **Cruzamento**: *"Como o Docker impacta o Onboarding?"*
+    -   O sistema busca informações tanto de Tecnologia/Docker quanto de RH/Onboarding.

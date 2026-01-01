@@ -45,3 +45,5 @@ services:
       - ./Cloud-Gemini-LLM/.env
     volumes:
       - ./Cloud-Gemini-LLM/vector_db:/app/vector_db # Persist vector DB
+      - ./Cloud-Gemini-LLM/bm25_index.pkl:/app/bm25_index.pkl
+      - ./Cloud-Gemini-LLM/controle_ingestao.json:/app/controle_ingestao.json

@@ -17,3 +17,6 @@ flashrank_cache/
 # Other
 *.sqlite3
 chroma.sqlite3
+
+bm25_index.pkl
+controle_ingestao.json

@@ -9,3 +9,6 @@ sentence-transformers
 python-dotenv
 fastapi
 uvicorn
+pickle-mixin
+flashrank
+rank_bm25

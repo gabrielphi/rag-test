@@ -8,14 +8,14 @@ endpoints:
       apiKey: "sk-no-key-needed"
       baseURL: "http://host.docker.internal:8000/v1"
       models:
-        default: ["gemma3:12b"]
+        default: ["mistral-nemo"]
         fetch: false
       titleConvo: true
-      titleModel: "gemma3:12b"
+      titleModel: "mistral-nemo"
       summarize: false
-      summaryModel: "gemma3:12b"
+      summaryModel: "mistral-nemo"
       forcePrompt: false
-      modelDisplayLabel: "Llama 3.1 RAG"
+      modelDisplayLabel: "Mistral Nemo RAG"
       stream: true
 
     - name: "Gemini Cloud RAG"
