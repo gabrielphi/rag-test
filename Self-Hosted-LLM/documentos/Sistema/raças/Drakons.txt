@@ -1,0 +1,55 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Draconico, Fogo, Escamas, Chifres, Império Tayan]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide (Drakons) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,75 e 2,13 |
+| **Tempo de vida** | Desconhecido |
+| **Movimento** | Caminhada 9m (30ft) |
+| **Línguas** | Comum, Draconico |
+| Resistencia a dano | Necrotico |
+
+## Habilidades de raça
+
+### Resistencia Abissal
+
+Você tem vantagens em testes de resistência contra qualquer magia da escolha de Necromancia
+
+Adicionalmente, se você rolar um 1 em um teste de salvaguarda contra morte, você pode rolar novamente esse teste e manter o novo resultado. Uma vez que você utilizou essa habilidade, não pode mais usar até que tenha finalizado um descanso longo.
+
+### Drakonfire
+
+Você conhece o truque “ Produzir chama” (Produce Flame).
+
+A partir do nível 3 você pode conjurar a magia mãos flamejantes (Burning Hands) com essa característica.
+
+A partir do nível 5 você pode conjurar Raio escaldante (Scorching Ray) com essa característica.
+
+Uma vez que você conjurou mãos flamejantes ou raio escaldante com essa característica, você não pode mais conjurar essa magia até que você complete um descanso longo. Você também pode conjurar usando qualquer espaço de magia de nível apropriado que você tenha.
+
+Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração quando você conjura utilizando essa característica. Não é necessário componentes de magia para conjurar essas magias
+
+## Detalhes da raça
+
+Os Drakon são a única raça em Ember a descender diretamente dos humanos. Eles compartilham muitas características físicas, tanto em forma quanto em estrutura, mas o mais importante é que o rosto de um Drakon é notavelmente humano. No entanto, suas características mais proeminentes são completamente perturbadoras e só podem ser descritas como draconianas, com longos chifres curvos, pele escamosa e caudas longas e escamosas. Felizmente, seus traços humanos são frequentemente mais dominantes e, combinados com a inocência inerente dos muito jovens, isso lhes permitiu serem aceitos e bem-vindos pela maioria das culturas, apesar de algumas de suas outras características físicas mais monstruosas.
+
+Os Drakon desenvolvem escamas grossas e salientes que cobrem quase todo o corpo. Nos antebraços, pernas e caudas, essas escamas não apenas seguem os contornos do corpo, mas são grandes, angulares e perigosas. No rosto, na parte frontal do pescoço e no peito, as escamas mudam drasticamente e, embora ainda estejam presentes, tornam-se quase invisíveis e parecem pele humana. Ao toque, essas escamas faciais e do peito são macias e coriáceas e são muito menos capazes de desviar golpes do que em outras partes do corpo, tornando os Drakon particularmente vulneráveis a ataques nessas áreas. Essa fraqueza é frequentemente compensada com armaduras que cobrem apenas o peito, pescoço e rosto, geralmente deixando os braços e pernas descobertos, já que a incrível força natural e a espessura das escamas tornam essas áreas quase impossíveis de ferir. Os Drakon têm caudas fortemente escamosas, com comprimentos e espessuras variados, mas geralmente são pesadas e grossas na base. Seus braços, mãos, pés e pernas são geralmente mais longos do que os dos humanos, parecendo esguios e elegantes, com garras nos dedos das mãos e dos pés. As escamas de um Drakon são surpreendentemente caleidoscópicas; vermelhos, laranjas, azuis e roxos suaves são as cores mais comuns, mas outras cores mais raras também aparecem. As escamas mais pronunciadas do corpo são quase sempre mais escuras na base e mais claras na ponta e também podem variar em tom e matiz. As escamas faciais e do peito são frequentemente muito diferentes do resto do corpo, assumindo pigmentos tradicionais da pele humana.
+
+Embora as escamas sejam um aspecto significativo da aparência de um Drakon, a característica física mais marcante são os grandes e elaborados chifres curvos que crescem no topo de suas cabeças. Múltiplos conjuntos de chifres simétricos, maiores e menores, são comuns, cobrindo quase toda a cabeça. Esses chifres não estão presentes ao nascer e podem aparecer apenas como pequenas protuberâncias no crânio, mas à medida que os Drakon envelhecem, os chifres continuam a crescer. O tamanho e a quantidade de chifres geralmente servem como um indicador claro da idade de um Drakon. Entre os chifres, também é comum encontrar pelos, mas sua textura é drasticamente diferente da do cabelo humano, sendo áspera, metálica e pesada.
+
+## Biologia
+
+A biologia interna e a estrutura orgânica dos Drakon são quase idênticas às dos humanos. No entanto, eles possuem sangue muito mais rico e oxigenado, com uma temperatura elevada, e órgãos internos capazes de metabolizar e enriquecer até mesmo pequenas quantidades de ar, mantendo seus corpos funcionando em condições extremas. Isso significa que um Drakon é muito resistente a temperaturas intensas e se sente confortável em ambientes congelantes e escaldantes. Eles também conseguem respirar normalmente em meio a fumaça densa, gases tóxicos e em grandes altitudes, onde o ar é rarefeito, como no topo das montanhas mais altas e até mesmo no Mar das Estrelas, sem qualquer auxílio adicional. Infelizmente, isso impacta significativamente a resistência dos Drakon, exigindo pausas e momentos para recuperar o fôlego durante atividades intensas. Se um Drakon se esforçar demais, pode até mesmo sofrer desmaios e ficar inconsciente por várias horas.
+
+Não se sabe se existe algum tipo de característica biológica envolvida, mas todos os Drakon possuem uma habilidade inerente de manipular uma forma particular de magia chamada Fogo Dracônico. Alguns acreditam que essa chama vermelha e roxa não causa danos a um Drakon, e que eles podem escolher se o fogo será prejudicial a outros. Ainda assim, geralmente, o Fogo Dracônico é extraordinariamente perigoso e queima de forma incomum, mesmo quando completamente submerso em água. O Fogo Dracônico pode se manifestar de várias maneiras, dependendo do Drakon; alguns podem lançar jatos ou raios de fogo contra seus inimigos, enquanto outros podem envolver seus corpos com um escudo flamejante que os protege de danos.
+
+## Conexões culturais
+
+Os Drakon surgiram muito recentemente no Império Tayan durante a Noite das Espadas, a partir de um número muito pequeno de humanos. Eles têm um total de três gerações: a primeira, seus filhos e seus netos, com os membros mais velhos da geração mais jovem variando de recém-nascidos a adolescentes. A maioria dos Drakon, portanto, está concentrada no Império Tayan, pois foi lá que foram criados. Ainda assim, os Drakon são extremamente curiosos, capazes e aventureiros e, nos últimos setenta e dois anos, começaram a explorar e descobrir muitas terras distantes. Agora podem ser encontrados em praticamente qualquer lugar, tanto em Atercia quanto em Kessia.
+
+Os Drakon surgiram sem qualquer memória de suas vidas anteriores e parecem indiferentes às suas origens misteriosas. O fato de estarem conectados de alguma forma aos dragões é de pouca relevância para a maioria, mas alguns são fascinados por suas origens e buscam qualquer informação sobre sua criação e sobre os próprios dragões. A maioria das pessoas que encontra um Drakon pela primeira vez fica surpresa com sua aparência, mas não se preocupa particularmente com isso nem os vê de forma negativa, já que muitos acreditam que sejam Aster.

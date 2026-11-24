@@ -1,0 +1,53 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Daemos, Etéreo, Braços Extras, Gliphyspeak, Infernal]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide(Signborn) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,42 e 1,93 |
+| **Tempo de vida** | 220-275 anos |
+| **Movimento** | Caminhada 9m (30ft) |
+| **Línguas** | Comum, Signaram |
+| Sentidos | Visão no escuro (60ft) |
+
+## Habilidades de raça
+
+### Braços etéreos
+
+Você tem **dois braços etéreos** além dos seus membros corpóreos.
+
+- Estes braços **não podem empunhar armas ou carregar escudos**.
+- Você pode realizar a ação **Usar um Objeto (Use an Object)** gratuitamente **duas vezes no seu turno**, em vez de apenas uma.
+- Você pode realizar os **componentes somáticos de magias** mesmo quando tem armas ou outros objetos em suas mãos físicas.
+
+### Gliphyspeak
+
+Você conhece a magia simples (cantrip) **Mensagem (Message)**.
+
+Começando no **3º nível**, você pode conjurar a magia **Compreender Idiomas (Comprehend Languages)** com esta característica.
+
+Começando no **5º nível**, você pode conjurar a magia **Zona da Verdade (Zone of Truth)** com esta característica.
+
+Assim que você conjura **Compreender Idiomas** ou **Zona da Verdade** com esta característica, você não pode conjurar essa magia novamente com ela até terminar um **descanso longo**. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia (spell slots) que você possua do nível apropriado.
+
+**Inteligência, Sabedoria ou Carisma** é a sua habilidade de conjuração para estas magias quando você as conjura com esta característica; escolha qual delas ao selecionar esta Ancestralidade. Nenhuma destas magias requer **componentes de magia** quando você as conjura com esta característica.
+
+## Detalhes da raça
+
+Os Signborn foram criados pelos Daemos de Nir’ae para propósitos ainda desconhecidos, mas sua influência demoníaca pode ser vista na mistura de etéreo e perigoso que os caracteriza. Todos os Signborn possuem pelo menos um conjunto adicional de membros, que podem ser incorpóreos, etéreos ou ambos. Seus chifres finos e pontiagudos e suas longas caudas semelhantes a chicotes também costumam ser fantasmagóricos e nebulosos nas extremidades, contrastando com os tons vibrantes de ciano e roxo e os tons de pele mais suaves do resto do corpo, que geralmente apresentam diferentes tonalidades de cinza.
+
+Os membros dos Signborn podem ser etéreos, mas também são eficazes – embora alguns sejam incorpóreos, a maioria pode ser usada física ou magicamente, ou até mesmo de ambas as formas. Eles também são lutadores habilidosos – muitos possuem garras delicadamente finas, mas perigosamente afiadas, em vez de unhas, ou dentes afiados que podem ser facilmente usados como armas. Essas características, além da angularidade de seus rostos, herdada dos Nir’ae que os Daemos usaram como base para suas criações, podem lhes conferir uma aparência austera e ameaçadora, apesar da natureza fantasmagórica e nebulosa de suas extremidades.
+
+## Biologia
+
+Os órgãos internos dos Signborn são comparáveis aos de seus ancestrais, os Nir'ae, e outros descendentes dos antigos Jarn. Quaisquer sistemas internos que se conectem aos seus membros etéreos simplesmente desaparecem no ponto de conexão com o resto do corpo, sem perda de funcionalidade. Na verdade, os membros etéreos dos Signborn são geralmente imunes a danos físicos, embora danos mágicos a esses mesmos membros possam afetá-los drasticamente, causando dor excruciante.
+
+Alguns Signborn apresentam marcas que lembram as de seus criadores Daemos originais, manifestando-se como padrões ou símbolos vívidos, enquanto outros desenvolvem membros etéreos adicionais, incluindo membros que parecem quase desconectados do corpo principal do Signborn em questão. Geralmente são braços, mas podem se manifestar como caudas, pernas ou até mesmo cabeças. Essas conexões com os Daemos originais não são transmitidas por linhagem familiar, aparecendo aleatoriamente nos Signborn ao nascer. Alguns estudiosos tentaram determinar um padrão para essas manifestações, mas ainda não encontraram nenhuma conexão definitiva além da ancestralidade geral dos Signborn.
+
+## Conexões culturais
+
+Os laços visíveis dos Signborn com seus criadores Daemos podem fazer com que outros os vejam com apreensão ou suspeita, e seu número é pequeno e disperso o suficiente para que nunca tenham criado uma cultura própria, optando geralmente por se adaptar às culturas ao seu redor. Os Signborn podem ser encontrados em qualquer lugar de Ember e, embora alguns tenham se destacado como aventureiros e guerreiros, outros se disfarçam com magia ou roupas para não despertar perguntas sobre sua aparência ou intenções por parte de estranhos.

@@ -37,7 +37,11 @@ def processar_frontmatter(doc):
             # Se for um dicionário válido, atualiza os metadados do documento
             if isinstance(metadados_yaml, dict):
                 # Normaliza as chaves para minúsculas para evitar confusão
-                metadados_yaml = {k.lower(): v for k, v in metadados_yaml.items()}
+                # E também normaliza os valores se forem strings
+                metadados_yaml = {
+                    k.lower(): (v.lower() if isinstance(v, str) else v) 
+                    for k, v in metadados_yaml.items()
+                }
                 doc.metadata.update(metadados_yaml)
                 
                 # Remove o bloco YAML do texto original para limpar a leitura
@@ -67,7 +71,7 @@ def salvar_controle(dados):
         json.dump(dados, f, indent=4)
 
 def formatar_nome(texto):
-    return texto.replace('_', ' ').replace('-', ' ').title()
+    return texto.replace('_', ' ').replace('-', ' ').lower()
 
 def enriquecer_metadados(doc, filepath, root_folder):
     rel_path = os.path.relpath(filepath, root_folder)
@@ -102,7 +106,7 @@ def enriquecer_metadados(doc, filepath, root_folder):
     if filename.upper().startswith("00_") or "INDICE" in filename.upper() or "INDEX" in filename.upper():
         doc.metadata['is_index'] = True
         doc.metadata['priority'] = "high"
-        doc.metadata['entity'] = "Index"
+        doc.metadata['entity'] = "index"
     else:
         doc.metadata['is_index'] = False
         doc.metadata['priority'] = "normal"
@@ -255,7 +259,7 @@ def formatar_chunk_com_contexto(split):
         context_header.append(f"SECTION: {split.metadata['Header 2']}")
 
     # Importante: Injeta a entidade se existir para disambiguação semântica
-    if split.metadata.get('entity') and split.metadata.get('entity') != "Index":
+    if split.metadata.get('entity') and split.metadata.get('entity') != "index":
         context_header.insert(0, f"[{split.metadata['entity'].upper()}]")
 
     # Cria um cabeçalho curto e forte

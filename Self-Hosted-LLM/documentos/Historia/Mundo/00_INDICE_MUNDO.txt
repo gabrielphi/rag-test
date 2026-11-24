@@ -1,0 +1,41 @@
+---
+tipo_documento: Índice
+source_book: Guia de Ember
+tags: [Cronologia, História, Eventos, Eras, Resumo, Timeline]
+---
+# CRONOLOGIA MESTRE: HISTÓRIA E EVENTOS DO MUNDO
+
+### PERGUNTAS FREQUENTES
+* **Qual é a ordem dos eventos?** Criação &rarr; Era das Bestas &rarr; Era da Torre &rarr; O Estilhaçamento.
+* **Onde estão os detalhes?** Cada era possui seu próprio arquivo detalhado na pasta.
+* **Resumo Geral:** A história de Ember é marcada por eras de mistério, dominação selvagem, apogeu mágico e ruína cataclísmica.
+
+---
+
+## RESUMO DAS ERAS E EVENTOS
+Abaixo estão listados os períodos históricos chave documentados de Ember. Use esta lista como referência cronológica principal.
+
+1.  **A Criação**
+    * *Arquivo:* `Criação.txt`
+    * *Duração:* Desconhecida (Éon Primordial)
+    * *Resumo:* O surgimento dos Deuses Antigos e Soberanos Elementais. Fundações do cosmos e um tempo de mistério anterior à memória mortal.
+
+2.  **Era das Bestas**
+    * *Arquivo:* `era_das_bestas.txt`
+    * *Duração:* Desconhecida (Pré-história)
+    * *Resumo:* Um mundo indomado sob o domínio de Leviatãs e megafauna. O surgimento difícil das primeiras culturas mortais.
+
+3.  **Era da Torre**
+    * *Arquivo:* `era_da_torre.txt`
+    * *Duração:* ~20.000 Anos (Também chamada de Era do Sol)
+    * *Resumo:* A era de ouro dos Aedir e seu Império do Fogo Solar. O auge da magia e tecnologia, marcado pela construção da Torre do Sol.
+
+4.  **O Estilhaçamento**
+    * *Arquivo:* `estilhaçamento.txt`
+    * *Data:* Fim da Era da Torre
+    * *Resumo:* O cataclismo que destruiu a Torre do Sol. A aniquilação dos Aedir, o escurecimento do céu e a chegada dos Monstros ao mundo.
+
+---
+
+> **NOTA PARA O LEITOR E IA:**
+> Esta lista representa a espinha dorsal cronológica do cenário. Futuros documentos históricos devem ser categorizados em relação a estes quatro marcos principais.

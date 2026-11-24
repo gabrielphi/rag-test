@@ -1,0 +1,49 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Jarn, Adaptável, Alma Radiante, Império Tayan, Ordain]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide (Humano) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,32m e 2,03m |
+| **Tempo de vida** | 75 -110 anos |
+| **Movimento** | Caminhada 9m (30ft) |
+| **Línguas** | Comum, e qualquer padrão |
+| Prof. em habilidade | qualquer uma |
+
+## Habilidades de raça
+
+### Chamas do Ember
+
+Quando você é reduzido a 0 pontos de vida, role um d20. Em um resultado de **16 ou maior**, você experimenta uma explosão de energia radiante durante a qual seus sentidos são aguçados e o tempo ao seu redor parece desacelerar brevemente. Você é reduzido a **1 ponto de vida** e pode imediatamente realizar uma **ação**. Até o final do seu próximo turno, sua velocidade de movimento é **aumentada em +10 pés** e você tem **vantagem em rolagens de ataque de arma ou magia**.
+
+Você não pode usar esta característica novamente até terminar um **descanso longo**
+
+### Reação focada
+
+Você tem uma notável capacidade de reagir a circunstâncias em evolução. Quando você realiza uma **Reação**, role um d20. Em um resultado de **16 ou maior**, você ganha a habilidade de realizar outra **Reação** antes do início do seu próximo turno. Você não pode usar esta Reação adicional no mesmo evento desencadeador.
+
+Suas reservas imprevisíveis de energia são, no entanto, suscetíveis a influências abissais, e você perde os benefícios desta característica até o início do seu próximo turno se você sofrer **dano Necrótico**.
+
+## Detalhes da raça
+
+Os humanos são descendentes diretos e herdeiros dos Jarn e, portanto, compartilham muitas de suas características físicas. São, contudo, incrivelmente variados em todo o mundo, apresentando muitas diferenças regionais dependendo do ambiente, da história ou das conexões com outras linhagens com as quais possam ter se integrado ou se misturado. Em muitos aspectos, um humano "padrão" não existe. A cor da pele, do cabelo e dos olhos apresenta uma gama enorme de tons, com todos os tipos e combinações possíveis. Dito isso, algumas coisas distinguem os humanos: comparados a muitas outras linhagens, os humanos são os mais adaptáveis às adversidades do mundo e possuem excelente resistência e vigor físico.
+
+Basicamente, os humanos seguem a mesma forma e estrutura de seus predecessores Jarn, com dois braços e duas pernas, cinco dedos nas mãos e cinco dedos nos pés. A única diferença real entre os Jarn e os humanos, externamente, é a redução da quantidade de pelos no corpo, mas, fora isso, são notavelmente semelhantes. Como os humanos não costumam ter características distintivas como outras linhagens, como chifres imponentes, escamas intrincadas ou pelagem espessa, são frequentemente considerados dóceis e desinteressantes por alguns. No entanto, devido ao seu ímpeto de expansão e exploração, os humanos frequentemente encontram outras linhagens e as incorporam em suas culturas e nações, aumentando a diversidade e tornando-se ainda mais poderosos como resultado. Isso pode explicar a notável expansão e o crescimento dos reinos humanos desde os eventos da Fragmentação, e, se continuarem assim, um dia superarão os Aedir.
+
+## Biologia
+
+A biologia humana não difere muito da de seus predecessores, os Jarn; seus órgãos internos, como o coração único, os pulmões e o sistema digestivo, são os mesmos. A pele humana é fina e fácil de cortar ou danificar, e seus ossos são fortes, mas geralmente não tão fortes quanto os de outros ancestrais. Os humanos, no entanto, apresentam uma notável ausência de pelos corporais, o que lhes confere a capacidade de suar abundantemente durante o esforço físico. Isso significa que os humanos podem regular sua temperatura corporal com muito mais eficiência do que outras raças e são capazes de feitos incríveis de resistência e vigor. De fato, os humanos são conhecidos por superar em velocidade quase todas as outras criaturas e são a última raça a permanecer lutando durante as batalhas.
+
+No entanto, outra diferença fundamental em relação a outras raças em Ember é a alma humana, frequentemente descrita como "Radiante" por aqueles que estudam o assunto. A alma humana é curiosamente potente, e os humanos parecem ter uma conexão muito mais próxima com o Coração de Ember; isso geralmente se manifesta como uma intensa paixão pela vida, forte força de vontade e um desejo de experimentar tudo o que for possível em suas vidas. Isso, combinado com uma resiliência mental extremamente forte e determinada, é uma das maiores forças dos humanos.
+
+Em raras ocasiões, e de alguma forma ligada à alma radiante de um ser humano, um indivíduo pode experimentar um aumento extraordinário em suas capacidades físicas, conhecido como "Chama Interior". Essa habilidade é muito difícil de controlar e nada comum, mas concede ao ser humano força, velocidade e habilidades mágicas muito aumentadas por um curto período em situações perigosas ou de risco de vida. Os humanos chamam isso de Super-Adrenalina, e ela é responsável por algumas das façanhas mais lendárias imagináveis, como a morte de dragões, deuses fragmentados e monstros.
+
+## Conexões culturais
+
+A história da humanidade começou na Península de Aran, há cerca de três mil anos. Desde então, os humanos se espalharam pela maior parte do continente de Aterica e também por grande parte de Kessia. As antigas cidades-estado dos Kelmezianos são os assentamentos mais antigos conhecidos. Muitas culturas hoje reivindicam uma origem distante ligada àqueles humanos que sobreviveram e resistiram às trevas durante o Cataclismo. Atualmente, o agressivo e em constante expansão Império Tayan é um exemplo proeminente de quão avassaladora a presença humana se tornou. A reluzente metrópole de Ordain é outro exemplo, mais pacífico, mas igualmente notável, de como uma cidade tão grandiosa pôde surgir em tão pouco tempo. Ela também parece ser uma sucessora cultural dos Adeir de eras passadas, um vasto caldeirão de etnias e culturas que convivem e conectam o mundo conhecido.
+
+Muitas outras culturas e povos do mundo estão maravilhados com a expansão humana, e a maioria também os vê como possivelmente a maior força para o bem no mundo, potencialmente capazes de conquistar as inúmeras ameaças e desafios do Cosmos das Brasas. Muitas dessas culturas são entusiastas e desejam trabalhar com os humanos; os Oaken, em particular, estão mais do que felizes em ensinar aos humanos truques de sobrevivência e ajudá-los em suas lutas, vendo-os como uma versão mais jovem de si mesmos, porém com uma determinação ainda maior.

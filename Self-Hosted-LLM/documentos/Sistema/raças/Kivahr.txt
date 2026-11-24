@@ -1,0 +1,52 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Gigantes Shent, Força, Músculos, Foco, Resistente]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide (Kivahr) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 2,00 e 2,23 |
+| **Tempo de vida** | 150-175 anos |
+| **Movimento** | Caminhada 9m (30ft) |
+| **Línguas** | Comum, Pathward |
+
+## Habilidades de raça
+
+### Músculos
+
+Sua **capacidade máxima de carga** é dobrada para o seu tamanho.
+
+Você tem **Vantagem** em testes de resistência de **Constituição** para evitar **Exaustão** ao ficar sem descansar.
+
+### Ritmo regular
+
+Sua mente e seu corpo trabalham em harmonia para resolver problemas e suportar esforço físico. No seu turno, você pode gastar uma **Ação Bônus** para entrar em um estado semelhante a um transe. Enquanto estiver neste estado, você tem os seguintes benefícios:
+
+- Você tem **Vantagem** em testes de perícia de **Intuição (Insight), Investigação, Percepção e Atletismo**.
+- Você tem **Vantagem** em testes de **Concentração** para manter uma magia.
+- Se estiver em combate, você recupera seu **modificador de Constituição em pontos de vida** no início de cada turno. Se usado fora de combate, você ganha 10 vezes o seu modificador de Constituição em pontos de vida ao longo de 1 minuto.
+
+Conjurar uma magia ou fazer um teste de ataque **encerra imediatamente o transe**. Depois de usar esta característica, você não pode usá-la novamente até terminar um **descanso longo**.
+
+## Detalhes da raça
+
+Criados pelos Gigantes de Shent, os Kivahr são seres de constituição robusta e extremamente fortes, com pele cinzenta, ossos densos, músculos volumosos e estatura acima da média. Embora sua musculatura densa evidencie sua força física, eles também são resistentes, capazes de suportar grandes quantidades de dor e sofrimento físico, e de manter o foco mesmo em situações extremamente difíceis. Isso pode ter sido resultado de uma decisão intencional dos Shent para ajudar os Kivahr a sobreviverem aos perigos da Fragmentação, mas os detalhes de sua criação se perderam no tempo.
+
+Além de sua resistência e força física, os Kivahr possuem uma conexão com a Lua Fragmentada de Akon que lhes proporciona foco mental — algo que, em teoria, seria impossível. Akon parece conceder aos Kivahr a capacidade de concentração quando está em seu zênite, uma habilidade que muitos Kivahr aprenderam a replicar em certa medida no dia a dia. Para os Kivahr que conseguem acessar essa conexão, o foco resultante pode proporcionar maior concentração, a capacidade de fazer deduções lógicas mais rapidamente e, em casos raros, até mesmo a capacidade de curar seus próprios corpos com rapidez.
+
+## Biologia
+
+Os Kivahr são uma raça grande e musculosa, com ossos excepcionalmente densos, músculos espessos e fibrosos e pele resistente que cicatriza rapidamente após lesões, embora seja propensa a desenvolver cicatrizes. A biologia dos Kivahr também torna quase impossível para eles acumularem gordura e lhes confere uma maior capacidade de desenvolver músculos do que a maioria das outras raças, independentemente do seu tipo físico. Como resultado, os Kivahr frequentemente possuem músculos em locais incomuns, incluindo uma camada ao redor da caixa torácica e nos pulsos, o que lhes dá a aparência de terem braços mais longos do que a média e uma postura ligeiramente curvada.
+
+Os Kivahr se alimentam dos mesmos alimentos que a maioria das outras raças humanoides, mas tendem a comer em maiores quantidades e não processam ou armazenam gordura da maneira típica, armazenando energia em seus músculos, que pode ser utilizada para sustentá-los durante longos períodos de déficit calórico. Isso permite que os Kivahr sobrevivam por vários meses sem comida, se necessário, e lhes confere grande resistência.
+
+Além da musculatura, as características biológicas mais distintivas dos Kivahr são sua pele cinzenta, que muitas vezes lhes dá a aparência de pedra esculpida, seu sangue e seus olhos. O sangue dos Kivahr tem consistência semelhante ao de outras raças, mas se assemelha a cobre líquido, com uma tonalidade laranja brilhante e uma aparência ligeiramente metálica. Quando seco, seu sangue adquire uma cor verde/ciano intensa, semelhante a cobre oxidado. Embora os olhos brilhantes dos Kivahr pareçam, à primeira vista, diferentes dos de outras raças apenas pela forma como brilham, uma análise mais atenta de suas pupilas revela pequenos componentes que se movem juntos em um ritmo constante — uma relíquia, talvez, da maneira como foram criados.
+
+## Conexões culturais
+
+Os Kivahr são a ancestralidade dominante em duas culturas que vivem adjacentes às Montanhas dos Gigantes, outrora lar dos Shent: os Bejak, que buscam conhecimento, ao Norte, e os Wardcall, mais guerreiros, ao Leste. Ambas as culturas incorporam elementos da cultura Shent, incluindo a crença em pensar antes de agir sempre que possível. Essas crenças foram reforçadas por vários Hul'grun ancestrais que vivem em cidades com grandes populações de Kivahr, onde seu conhecimento da cultura Shent é muito valorizado. Além de suas conexões com alguns Hul'grun, os Kivahr também mantiveram alguns laços com os Keth, outra ancestralidade criada pelos Shent, e tanto as culturas Bejak quanto Wardcall comercializam livremente com cidades dominadas pela cultura Kithil, fundada pelos Keth.
+
+Para além das comunidades Bejak e Wardcall nos arredores das Montanhas dos Gigantes, dos limites da Grande Cidade da Esfera e, nos últimos anos, nas aldeias Kithil nos arredores de Ordain, os Kivahr são bastante raros na superfície de Ember, preferindo geralmente permanecer perto das terras tradicionais dos Gigantes, onde sua ancestralidade foi criada.

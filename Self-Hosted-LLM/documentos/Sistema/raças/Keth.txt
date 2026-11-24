@@ -1,0 +1,55 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Caos, Sorte, Lua, Shent, Striders]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide (Keth) |
+| --- | --- |
+| **Tamanho** | Pequeno |
+| **Altura** | Entre 81cm e 1,04m |
+| **Tempo de vida** | 80-100 anos |
+| **Movimento** | Caminhada 7,5m (25ft) |
+| **Línguas** | Comum, Forest Speech |
+
+## Habilidades de raça
+
+### Inquisidor do caos
+
+Você prospera na imprevisibilidade e tem uma inclinação para transformar uma situação ruim em uma vantajosa.
+
+- Após **falhar** em um teste de **Enganação, Persuasão ou Intimidação**, você pode imediatamente fazer outro teste com **Vantagem** usando uma perícia diferente desta lista. Esteja ciente de que a CD do segundo teste pode mudar a critério do Mestre de Jogo.
+- Após rolar um **1 em um Teste de Ataque**, você faz sua próxima rolagem de ataque contra o mesmo alvo com **Vantagem**.
+
+### Mordida afiada
+
+Você pode usar uma **Ação Bônus** para fazer um ataque com seus dentes afiados. Este é um ataque desarmado especial com a propriedade **Acuidade (Finesse)**. Você tem **proficiência** com este ataque, que causa **1d6 de dano perfurante**.
+
+Se você tiver níveis na classe **Monge**, o dano deste ataque pode ser melhorado pelo tamanho do seu **Dado de Artes Marciais (Martial Arts die)**.
+
+### Mordida
+
+Voce possui o ataque natural mordida
+
+## Detalhes da raça
+
+Embora os antigos Gigantes da cultura Shent tenham desaparecido da superfície de Ember há muito tempo, muitos consideram os Keth como seus sucessores espirituais, criados pelos Shent para sobreviver e prosperar onde os antigos Gigantes não conseguiram. Fisicamente, eles contrastam bastante com seus criadores, geralmente medindo cerca de um metro de altura e raramente ultrapassando um metro e vinte centímetros, com olhos grandes e um tom alaranjado-avermelhado na pele.
+
+Fisicamente, a característica mais distintiva dos Keth é sua estrutura facial peculiar. Eles falam, comem e se comunicam de forma semelhante a outras raças, com apenas um vislumbre de dentes grandes por trás de seus lábios sorridentes, mas as duas linhas abaixo de suas maçãs do rosto permitem que abram a boca de forma incrivelmente ampla, revelando uma mandíbula repleta de dentes grandes e afiados. Muitos que desconhecem essa característica a consideram perturbadora ou assustadora, e os Keth, em geral, costumam esconder esse aspecto de si mesmos com véus, máscaras ou outros tipos de cobertura.
+
+Os Keth parecem compartilhar alguma conexão com as Luas Elementais de Ember, assim como os Shent. Seus cabelos frequentemente mudam de cor dependendo do ciclo lunar, brilhando ou cintilando com pequenas estrelas que realçam suas cores naturais de preto, cinza e branco. Acredita-se que os padrões em espiral criados por esse brilho estejam ligados tanto aos movimentos lunares atuais quanto ao estado espiritual ou humor de cada Keth. Seus humores também são conhecidos por serem afetados pelas luas, com os efeitos mais fortes gerados por Orbis, a Lua Espiritual. Quando Orbis está em seu zênite, os Keth geralmente ficam mais excitáveis, apaixonados e propensos a comportamentos aparentemente caóticos. O fato de isso raramente terminar mal para eles é frequentemente atribuído às luas também, como se elas lhes concedessem algum tipo de sorte sobrenatural.
+
+## Biologia
+
+Os Keth são baixos, atarracados e ligeiramente mais robustos que os humanos. Seus ossos e órgãos internos são semelhantes aos dos humanos, mas seu tamanho menor e menor resistência os tornam um pouco mais fracos e mais suscetíveis a ataques físicos. Seus dentes e mandíbulas grandes, embora visualmente impressionantes e intimidadores, não são particularmente poderosos e podem ter sido projetados pelos Shent como uma forma de os Keth assustarem predadores maiores.
+
+Seu sangue, assim como seu cabelo, brilha — é de um branco cintilante com pequenas partículas de um material brilhante não identificado que parecem não ter nenhuma função específica, e brilha ainda mais intensamente quando qualquer lua está no seu zênite. Nenhum estudioso conseguiu determinar o motivo, já que funciona da mesma forma que o sangue de qualquer outra espécie.
+
+Seja por causa do seu sangue ou não, os Keth têm aversão a máquinas complexas e frequentemente sentem repulsa física na presença de construções complexas. Quanto mais complexa a máquina, maior se torna essa aversão, com alguns Keth sentindo queimaduras e outras dores simplesmente ao segurar peças de construções complexas. Como resultado, é raro, embora não impossível, que os Keth se tornem artífices.
+
+## Conexões culturais
+
+Os Keth foram criados pelos Shent por razões desconhecidas pouco antes dos eventos do Estilhaçamento. Muitos presumem que tenha sido uma forma de os Shent continuarem suas tradições espirituais e preservarem parte de sua cultura antes de desaparecerem, mas seus motivos se perderam na história. Durante o Estilhaçamento, os Keth sobreviveram, fugindo em todas as direções da Espinha de Brasa. Aqueles que viajaram para o leste fundaram a cultura Kithil, focada na lua, que funciona quase exclusivamente durante as horas noturnas, enquanto aqueles que viajaram para o oeste se estabeleceram nas enormes árvores da Floresta da Luz Central, fundando os Striders, focados na natureza.
+
+Na era atual, os Keth são uma visão comum nos reinos e nações humanas de Atercia. Eles se integram facilmente a uma ampla variedade de culturas, e muitos chegaram ao Planalto de Arctus e a Ordain. Como prova de sua onipresença, os arcturianos e os ordani não têm problemas com os estranhos sorrisos largos e dentes dos Keth, e os Keth não costumam esconder seus rostos nessas culturas.

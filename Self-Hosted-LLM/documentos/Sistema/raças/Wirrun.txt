@@ -1,0 +1,51 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Frio, Inverno, Sokali, Daemos, Caçador]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,90 e 2,16 |
+| **Tempo de vida** | 90-125 anos |
+| **Movimento** | Caminhada 10,5m (35ft) |
+| **Línguas** | Comum, |
+| Resistencia a dano | Frio |
+
+## Habilidades de raça
+
+### Caçador implacavel
+
+Você pode gastar uma **Ação Bônus** para designar uma criatura que você possa ver como sua **presa (quarry)**. Você tem **Vantagem** em qualquer teste de **Percepção ou Sobrevivência** que você fizer para encontrar essa criatura pelas próximas **24 horas**. Quando você se move para mais perto de sua presa, você tem **Vantagem** na próxima rolagem de ataque feita contra esse alvo no seu turno.
+
+Se sua presa for reduzida a 0 pontos de vida antes que esta habilidade termine, você pode usar uma Ação Bônus em um turno subsequente para designar uma nova criatura como sua presa.
+
+Depois de usar esta característica, você não pode fazê-lo novamente até terminar um **descanso longo**.
+
+### Alma de inverno
+
+Você tem **resistência natural a dano de frio**, é **imune aos efeitos do frio extremo**, e tem **visão cega (blindsight) de 30 pés** em casos onde sua visão é prejudicada por névoa, neblina ou queda de neve intensa.
+
+Sua velocidade base de caminhada é de **35 pés**.
+
+## Detalhes da raça
+
+Embora sejam altos e esguios, com membros longos e apêndices um tanto delicados, os Wirrun são bem adaptados à vida nas terras mais frias e inóspitas de Ember. Seus ossos leves e a capacidade de caminhar eficazmente tanto na ponta quanto na sola dos pés facilitam a travessia em gelo escorregadio e em espessas camadas de neve, e sua magia elemental inata os ajuda a manter o equilíbrio mesmo nas condições mais geladas. Seus olhos, que variam de cor, mas não possuem pupilas ou íris visíveis, conseguem enxergar com clareza mesmo durante condições climáticas extremas, trabalhando em conjunto com suas orelhas flexíveis e sensíveis para navegar por nevascas e nevoeiros densos com facilidade. Em climas mais quentes, os Wirrun geralmente se sentem um pouco desconfortáveis e, embora possam ser encontrados por toda Ember, costumam criar ambientes frios onde se sentem mais à vontade.
+
+Os Wirrun retêm algumas características físicas de seu papel original como servos dos demoníacos Daemos, incluindo sua estrutura corporal geralmente esguia, garras e dentes afiados, mas a maioria de suas características mais marcantes provém de sua criação por Sokali, incluindo seus cabelos finos, porém resistentes ao congelamento. Embora sua pele varie de branco pálido a roxo e cinza carvão, todos os Wirrun compartilham a mesma cor de cabelo — um branco puro que lembra a longa juba de Sokali — e às vezes se autodenominam "Os de Crina de Inverno" em sua homenagem.
+
+## Biologia
+
+Os Wirrun não são apenas de sangue frio, mas também sobrenaturalmente resistentes a baixas temperaturas, talvez como resultado das partículas de prata encontradas em seu sangue de cor lavanda. Diz-se que eles conseguem caminhar por nevascas violentas sem sofrer qualquer efeito negativo. Em climas mais quentes, por outro lado, costumam sentir algum desconforto, cuja intensidade varia de indivíduo para indivíduo. Temperaturas especialmente altas podem causar náuseas e fraqueza em alguns deles. Os Wirrun que se estabelecem em áreas mais quentes geralmente se adaptam à temperatura com o tempo — alguns com mais sucesso do que outros.
+
+Os Wirrun são onívoros com forte preferência por carne, que geralmente é sua fonte de alimento mais confiável no extremo norte de Aterica. Aqueles que viajam para o sul e passam tempo em climas mais quentes variam sua dieta, mas é raro encontrar um Wirrun que não consuma carne como parte importante de sua alimentação. Embora seu criador, Sokali, tenha ajudado a adaptar sua digestão para que pudessem prosperar com essa dieta, seus dentes afiados vêm de sua origem como servos dos demoníacos Daemos de Signara. Isso, juntamente com suas adaptações para a caça — garras afiadas, visão aguçada e a capacidade de perseguir suas presas em terrenos nevados — pode fazê-los parecer assustadores para os outros, mesmo quando não têm a intenção de causar nenhum dano.
+
+A adaptação dos Wirrun ao frio é bem conhecida, mas sua origem com os Daemos de Signara lhes confere uma afinidade com a magia simbólica e as palavras de poder. Em particular, as vozes dos Wirrun são fortes e possuem um leve toque mágico, o que lhes permite serem ouvidos em meio a nevascas intensas, no auge de tempestades violentas e a grandes distâncias.
+
+## Conexões culturais
+
+A cultura Fikost é composta principalmente pelos Wirrun, que habitam a região do Mar da Geada, no norte, com seu centro na grande cidade flutuante de Rimefrost. A presença de trolls e outras criaturas na área, que os Wirrun caçam, mas das quais também se protegem, tende a manter a maioria dos Wirrun nessa região setentrional. Alguns Wirrun, no entanto, viajam mais para o sul, para climas mais quentes, adaptando-se às temperaturas mais elevadas ou usando magia para se manterem frescos, protegendo seus corpos do calor dessas regiões.
+
+Entre os Wirrun que viajam para o sul, é mais provável encontrá-los entre as culturas Bejak e Wardcall, já que seus ambientes são mais frios do que os frequentados por outras culturas e eles compartilham a aversão dos Wirrun e Fikost aos trolls. Elementos da cultura Fikost podem ser encontrados ocasionalmente em cidades e assentamentos Bejak e Wardcall com populações Wirrun suficientemente grandes. Alguns Wirrun também se aventuram mais para o sul para comerciar, muitas vezes chegando a Ordain, onde há uma população grande o suficiente para que um de seus distritos tenha um spa de gelo projetado para mercadores Wirrun.

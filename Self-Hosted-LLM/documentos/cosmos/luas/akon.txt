@@ -1,0 +1,21 @@
+---
+tipo_documento: lua
+source_book: Guia de Ember
+tags: [Ordem, Ruína, Engenharia, Disciplina, Melancolia, Fragmentação]
+---
+
+# Akon: A Lua Estilhaçada
+
+Antigamente um orbe cintilante de bronze escurecido, a lua da ordem (moon of order) é agora cinzenta, quebrada e sem vida. Diz-se que as sábias e antigas Wyrms (Wyrms) tunelaram sob sua superfície desde a criação e criaram máquinas maravilhosas e delicadas para salvaguardar o cosmos. O Estilhaçamento (The Shattering) foi catastrófico para Akon, quebrando a lua em milhares de fragmentos e varrendo a vida de sua superfície e passagens. Agora, constructos, máquinas e monstros mortos-vivos rondam os túneis e passagens cruzadas de suas seções intactas.
+
+**Características Concedidas — Sintonização com Akon (Akon Attunement)**
+* **Palavras-chave:** Ordem (Order), Arrependimento (Regret), Ruína (Ruin)
+* **Ideal:** Disciplina (Discipline)
+* **Era:** Eras Incontáveis (Countless Ages)
+* **Outros Nomes:** A Lua Estilhaçada (The Shattered Moon), A Coroa Quebrada (The Broken Crown), O Arquiteto Silencioso (The Silent Architect)
+
+Akon foi outrora um bastião de simetria e razão, sua superfície coberta por vastas planícies geométricas de metal e vidro onde as antigas Wyrms (Wyrms) moldaram monumentos e máquinas que refletiam a harmonia perfeita da criação. As Wyrms (Wyrms), seres de imensa sabedoria, buscaram compreender a arquitetura que moldou toda a existência, acreditando que, através da lógica pura e da disciplina, poderiam um dia espelhar a perfeição do próprio cosmos.
+
+Hoje, Akon é um cemitério. Seus restos despedaçados flutuam pelo céu acima de Ember como uma tempestade congelada, com fragmentos massivos orbitando a lua agora quebrada e sem vida. Os infinitos campos de detritos, afiados com as bordas de cristais e metal, sussurram para aqueles que os observam por muito tempo — vozes de arrependimento, lamentando a perda de um povo outrora puro e nobre.
+
+A tragédia de Akon é discutida incessantemente por estudiosos e historiadores; muitos afirmam que sua destruição marcou a primeira grande queda da razão cósmica, e a cada ano, Ember cai ainda mais no caos. As Wyrms (Wyrms), apesar de todo o seu brilhantismo, foram cegadas por sua fé em estruturas e lógica, incapazes de compreender os perigos do caos não gerenciado. No entanto, mesmo agora, os fragmentos quebrados de Akon brilham levemente no céu noturno, um lembrete silencioso de que a Ordem, embora ferida, ainda mantém o cosmos unido, frágil, mas duradouro. Entre o povo de Ember, Akon é vista com medo e tristeza. Quando seus pedaços fragmentados atingem seu ápice no céu noturno, muitos veem isso como um presságio de infortúnio. Alguns afirmam que o Estilhaçamento (The Shattering) e a destruição da lua foram algum tipo de punição divina, enquanto outros argumentam que ela estava apenas no lugar errado na hora errada e foi atingida por estilhaços da Torre do Sol (Sun Tower) de forma completamente aleatória.

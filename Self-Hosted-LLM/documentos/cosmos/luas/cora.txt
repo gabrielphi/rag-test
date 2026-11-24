@@ -1,0 +1,21 @@
+---
+tipo_documento: lua
+source_book: Guia de Ember
+tags: [Resiliência, Gravidade, Geologia, Pragmatismo, Destruição, Sobrevivência]
+---
+
+# Cora: A Lua Castigada (The Blasted Moon)
+
+A temível lua da terra (fearsome moon of earth) tem sido assolada por mudanças selvagens e indomáveis desde a criação. Suas poderosas forças gravitacionais (gravitational forces) flutuam erraticamente, causando fissuras dramáticas e mudanças em sua topografia, enquanto lançam rochas no anel orbital de detritos da lua. Esses detritos são frequentemente aprisionados acima por um curto período antes que os surtos gravitacionais de Cora façam com que esses meteoros (meteors) caiam e colidam implacavelmente contra a superfície marcada da lua.
+
+**Características Concedidas — Sintonização com Cora (Cora Attunement)**
+* **Palavras-chave:** Terra (Earth), Resistência (Endurance), Cataclismo (Cataclysm)
+* **Ideal:** Pragmatismo (Pragmatism)
+* **Era:** Eras Incontáveis (Countless Ages)
+* **Outros Nomes:** A Lua Castigada (The Blasted Moon), A Mãe de Pedra (The Stone Mother), O Mundo em Queda (The Crashing World)
+
+A temível lua da terra é uma lua de forças inquietas, porém previsíveis. Sua atração gravitacional é aparentemente errática e feroz, alternando-se em surtos que arrancam montanhas da superfície e as lançam no Mar de Estrelas (Sea of Stars), apenas para arrastá-las de volta, causando impactos de força aterradora. Essas convulsões intermináveis formaram um anel orbital de detritos que circula a lua como uma coroa denteada, um monumento à destruição implacável e autoinfligida. No entanto, deste ciclo interminável de ruína, novas formações surgem, e a lua resiste.
+
+Nas eras mais remotas, enquanto o cosmos de Ember (Ember) tomava forma, Cora emergiu do Mar de Estrelas (Sea of Stars) como uma massa fundida de minério e pedra. Dizia-se que de seu corpo vieram os próprios ossos do mundo de Ember, e alguns acreditam que Cora pode ter feito parte do próprio mundo antes de ser arrancada. Com o tempo, a superfície da lua tornou-se um cadinho de transformação violenta: montanhas erguendo-se rapidamente e desmoronando em momentos, cânions abrindo-se vastamente e selando-se novamente em poucas horas. Poucos seres podem suportar tal fúria, e os principais habitantes da lua são os Korvathi (Korvathi), criaturas elementais de pedra e cristal que sobrevivem por pura adaptabilidade.
+
+Para os mortais em Ember (Ember), Cora é tanto reverenciada quanto vista com certa cautela. Muitos atribuem uma personalidade feminina à lua, apesar de não haver evidências que sustentem a ideia. Agricultores, mineradores e construtores sussurram seu nome em orações silenciosas antes de trabalhar o solo ou golpear o chão, reconhecendo o temperamento da lua tanto quanto sua generosidade. Estudiosos veem Cora como a personificação da necessidade severa (harsh necessity), a compreensão de que a sobrevivência requer a aceitação das dificuldades. Enquanto outras luas podem inspirar fé ou admiração, Cora ensina a resistência (endurance): que o mundo não se curva à vontade de alguém, mas que se deve enfrentar seus desafios independentemente disso.

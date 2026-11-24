@@ -1,0 +1,53 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Planta, Espinhos, Resistente, Água, Druidico]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide(Thornling) |
+| --- | --- |
+| **Tamanho** | Pequeno |
+| **Altura** | Entre 61cm e 96,5cm |
+| **Tempo de vida** | 60-90 anos |
+| **Movimento** | Caminhada 7,5m (25ft) |
+| **Línguas** | Comum, Druidico |
+
+## Habilidades de raça
+
+### Resiliencia fibrosa
+
+A biologia fibrosa dos **Thornlings** é incrivelmente resiliente, proporcionando os seguintes benefícios:
+
+- Sua **Classe de Armadura (CA)** não pode ser inferior a **16**, independentemente do tipo de armadura que você esteja vestindo.
+- Você tem **resistência a dano de queda**.
+- Você ganha o **dobro dos efeitos de cura** de Dados de Vida (Hit Dice) gastos.
+
+### Thornbark
+
+Como uma **Reação** quando atingido por um ataque corpo a corpo, você faz com que farpas espinhosas se projetem do seu corpo. Por **um minuto** você ganha os seguintes benefícios:
+
+- Quando uma criatura a até 5 pés de você o atinge com um ataque corpo a corpo, incluindo o ataque que desencadeou esta Reação, ela sofre **1d4 de dano perfurante**.
+- Tentativas de Agarrar (Grapple) ou Empurrar (Shove) você são feitas com **Desvantagem**.
+
+Depois de usar esta característica, você não pode fazê-lo novamente até terminar um **descanso longo**.
+
+## Detalhes da raça
+
+Os Thornlings são uma raça de seres muito pequenos, semelhantes a plantas, com cabeças grandes e redondas e olhos igualmente grandes. Suas características faciais, combinadas com sua pequena estatura, podem fazê-los parecer "fofos" e delicados para os outros, mas os Thornlings são sobreviventes natos — resistentes, adaptáveis e difíceis de matar. Sua pele é feita de uma casca resiliente e os espinhos que brotam de seus corpos à medida que envelhecem são um forte mecanismo de defesa contra predadores. Eles também são capazes de se adaptar e transformar gradualmente sua aparência externa para se camuflar no ambiente, embora seus corpos e cabeças quase sempre apresentem folhas e outras formas semelhantes a plantas. Quanto mais saudáveis aparentarem, melhor será o estado emocional do Thornling.
+
+Embora alguns Thornlings sejam conhecidos por viverem vidas incrivelmente longas, em geral, a expectativa de vida deles é menor do que a média. Isso, juntamente com sua capacidade de sobreviver a encontros e experiências que poderiam causar sérios danos a outras raças, lhes conferiu a reputação de serem despreocupados e aventureiros, seja vivendo sozinhos na natureza, frequentemente em comunidades centradas em grandes corpos d'água que utilizam para se sustentar, ou vivendo entre outras raças em Ember.
+
+## Biologia
+
+Os Thornlings não possuem órgãos ou ossos — sua estrutura interna é semelhante à de uma árvore ou planta, com estruturas internas fibrosas e resistentes. Isso os torna extremamente resistentes — a pele-casca de um Thornling é quase impenetrável, e seus membros possuem a força de uma árvore, independentemente da espessura. Eles também sofrem poucos danos, mesmo em situações que poderiam ferir outros seres, recuperando-se instantaneamente após quedas de grandes alturas, por exemplo, e podem regenerar membros perdidos. Os Thornlings não têm sangue, mas contêm um líquido viscoso amarelado. Este líquido funciona mais como seiva do que como sangue, e o vazamento dessa substância não é sinal de perigo ou de um ferimento grave. Apesar disso, os Thornlings sempre parecem ter olhos arregalados e uma aparência jovem — a coloração da pele de um Thornling raramente muda desde o nascimento, a menos que tenha se adaptado ao ambiente de alguma forma, e a idade de um Thornling é refletida unicamente no número de espinhos em sua cabeça.
+
+Os Thornlings não têm a capacidade de consumir alimentos sólidos, obtendo todos os seus nutrientes de líquidos. Eles têm uma grande necessidade de água, bebendo mais do que qualquer outro ser humanoide, e a água pode ter um efeito um tanto inebriante sobre eles, tornando-os mais otimistas, animados e extrovertidos. Isso pode levar a celebrações e brincadeiras leves após fortes chuvas ou quando estão próximos a grandes corpos d'água. Banhos são um luxo particularmente prazeroso para a maioria dos Thornlings, e os banhos tradicionais conhecidos como Taro geralmente envolvem água fria seguida de imersões em água morna infundida com minerais ou aromas florais. Os Thornlings também apreciam muito bebidas saborosas com alto teor de água, incluindo bebidas alcoólicas e chás. Compartilhar uma bebida com um companheiro que nunca a experimentou antes é considerado um grande sinal de confiança e amizade.
+
+Devido à sua necessidade de água, os Thornlings são vulneráveis a condições secas e geralmente evitam ambientes áridos como desertos ou tundras, a menos que haja fontes de água dispersas. Se ficarem longe da água por muito tempo, suas folhas e casca murcharão lentamente, causando exaustão e dor a curto prazo e desidratação e colapso a longo prazo, embora isso leve muitos anos e possa ser revertido se for derramada água suficiente sobre eles.
+
+## Conexões culturais
+
+Os Thornlings geralmente vivem em pequenos grupos familiares, centrando suas vidas em torno de uma fonte de água doce. Capazes de prosperar em lugares onde outros não conseguem, alguns assentamentos de Thornlings vivem em relativo isolamento. Eles geralmente ignoram aqueles que passam por eles na natureza, a menos que os viajantes interfiram em suas vidas ou limitem seu acesso à água de alguma forma. No entanto, os viajantes ainda podem ser cautelosos com eles, pois pode ser difícil saber qual ação pode desencadear uma reação dos Thornlings, que se importam com o mundo natural ao seu redor e são temíveis por sua quase indestrutibilidade.
+
+A capacidade dos Thornlings de sobreviver por conta própria é contrabalançada por um profundo desejo de explorar, que pode ter sido incutido por algum desígnio de seu criador. A dispersão dos Thornlings por toda Ember se deve, em parte, a esse amor pela exploração e aventura, que muitas vezes gira em torno da descoberta de uma nova fonte de água. Assim que um Thornling se estabelece em um novo lugar, uma pequena comunidade geralmente cresce ao seu redor e da fonte de água que ele encontrou, com a nova comunidade de Thornlings adotando a cultura daqueles que a cercam.

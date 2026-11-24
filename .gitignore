@@ -9,7 +9,7 @@ vector_db/
 mongo-data/
 *.wt
 # Documents
-documentos/
+#documentos/
 *.pdf
 images/
 logs/

@@ -1,0 +1,51 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Construto, Pedra, Metamorfo, Núcleo Espiritual, Gigantes Shent]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide (Hulg'run) |
+| --- | --- |
+| **Tamanho** | Pequeno |
+| **Altura** | Entre 1,07m e 1,65m |
+| **Tempo de vida** | 250-300 anos(Exceto imortais) |
+| **Movimento** | Caminhada 7,5m (25ft) |
+| **Línguas** | Comum, Pathward |
+| Sentidos | Visão no escuro (60ft) |
+
+## Habilidades de raça
+
+### Pedra viva
+
+Sua forma de pedra calcifica temporariamente, fornecendo proteção aprimorada contra golpes físicos. Até o final do seu próximo turno, você ganha **resistência a dano de concussão, cortante e perfurante que não seja mágico ou adamantino**. Durante este tempo, você **não pode ser movido ou derrubado**.
+
+Você pode usar esta característica um número de vezes igual ao seu **bônus de proficiência**. Você recupera quaisquer usos gastos desta característica quando termina um **descanso longo**.
+
+### Recuperação espiritual
+
+Você pode comungar com a essência de Ember quando descansa. Se você estiver descansando em **solo sólido**, você não requer sono e pode permanecer **consciente** durante um descanso longo. Você não pode se envolver em nenhuma atividade extenuante para obter os benefícios do descanso.
+
+Além disso, efeitos mágicos **não podem fazer você cair no sono**.
+
+## Detalhes da raça
+
+Os Hulg'run são uma das raças mais incomuns e distintas do mundo de Ember. Eles se originaram como construções de pedra compactas que a antiga cultura dos Gigantes de Shent usava para mineração, exploração e construção. Frequentemente, eles se espremiam em espaços pequenos para manipular máquinas delicadas e navegar por passagens estreitas e, mesmo hoje, permanecem diminutos em tamanho e escala em comparação com outras raças. Após seu despertar, deixaram de ter uma forma unificada, e sua variedade e aparência geral explodiram em diversidade. A principal característica física de um Hulg'run é o tipo de pedra usado para criar seus corpos. Isso pode ser praticamente qualquer coisa do registro geológico, desde granitos, arenitos, rochas ígneas ou até mesmo pedras preciosas. Isso pode levar a uma ampla variedade de aparências, e algumas famílias de Hulg'run retornam especificamente a pedreiras específicas para práticas simbólicas e rituais, em comunhão com certos tipos de rocha que consideram atraentes ou belos. Às vezes, os Hulg'run dispensam joias e, em vez disso, adornam seus corpos com pedras preciosas incrustadas e incrustações e padrões metálicos.
+
+Os Hulg'run são frequentemente descritos como metamorfos incrivelmente lentos, e cada indivíduo pode escolher sua aparência, alterando a estrutura de seus corpos, formatos de rosto, cores, materiais e gênero a qualquer momento. Esse processo é lento, no entanto, e pode levar várias semanas ou meses para se estabilizar e se transformar completamente. Eles também podem precisar de uma conexão física com um elemento rochoso para se transformar nele, com alguns Hulg'run carregando pequenas pedras e gemas para uso futuro. Os rostos e corpos dos Hulg'run são frequentemente representados com formas angulares e simples, parecendo mais estátuas esculpidas do que pele biológica lisa. Mas alguns Hulg'run optam por criar e manter detalhes intrincados tão finos que parecem pedra orgânica viva. Não é incomum que um Hulg'run assuma a aparência das pessoas ao seu redor ou seja deliberadamente criado à imagem de outros.
+
+Os olhos de um Hulg'run estão entre suas áreas mais detalhadas e, em quase todos os casos, são pedras preciosas ou gemas contrastantes que brilham suavemente no escuro. Esse brilho está ligado à sua conexão espiritual com o mundo ao seu redor e desaparece após a morte. Seus olhos também podem ser facetados em vez de redondos e parecer esculpidos como uma joia polida com uma pupila mais escura e uma íris e esclera geométricas brilhantes.
+
+## Biologia
+
+Os Hulg'run são feitos inteiramente de pedra, sem órgãos internos, exceto por um núcleo interno de material mágico chamado Núcleo Espiritual. Este é um elemento mágico extremamente potente, infundido com Força Vital e uma Alma proveniente do Coração de Brasa, e é a razão pela qual os Hulg'run se tornaram uma raça senciente. Por serem infundidos com energia mágica, os Hulg'run podem mover seus corpos de pedra de uma maneira quase inimaginável, esticando, mudando de forma e torcendo-se sem rachar ou se danificar. Como não possuem órgãos de qualquer tipo, não consomem alimentos como a maioria das formas de vida orgânicas; em vez disso, podem absorver minerais e energia de materiais segurando-os em suas mãos, e podem fazer isso com praticamente qualquer coisa, como alimentos tradicionais, rochas, madeira e metais. Eles também não respiram e podem sobreviver debaixo d'água ou em ambientes incrivelmente perigosos. Quando "dormem", podem sentar-se calmamente e absorver lentamente a Força Vital diretamente do solo para se energizarem. Esse processo pode ajudar os Hulg'run feridos a regenerar seus corpos, mas pode levar vários dias ou semanas para se curarem completamente, dependendo da lesão.
+
+Em quase todos os casos, um Hulg'run viverá por respeitáveis trezentos anos antes que seus corpos comecem a se desgastar e seu Núcleo Espiritual comece a enfraquecer. Um Hulg'run mais velho pode apresentar "rachaduras", onde pequenas lascas e rachaduras aparecem em suas articulações, tornando o movimento doloroso e lento. Em casos raros, especialmente Hulg'run espirituais que desenvolvem uma conexão próxima com a Força Vital podem reenergizar seu Núcleo Espiritual indefinidamente, tornando-se efetivamente imortais. Isso geralmente eleva o poder do indivíduo e geralmente resulta na criação do que é frequentemente chamado de Deus Selvagem.
+
+Como os Hulg'run são feitos de pedra, são incrivelmente resistentes e fortes e possuem uma impressionante resistência a alguns ataques físicos. No entanto, isso tem um preço alto, e um Hulg'run tem várias fraquezas em certas situações. Eles são especialmente vulneráveis a ataques contundentes, e quando atingidos com força física suficiente, seus membros podem se estilhaçar e quebrar. Felizmente, um Hulg'run pode sobreviver a ferimentos extremos, e há até relatos de Hulg'run que conseguiram sobreviver mesmo com a cabeça estilhaçada. Eles também podem regenerar membros lentamente ao longo do tempo enquanto meditam. Os Hulg'run são muito pesados e não conseguem pular muito alto, geralmente apenas cerca de 30 centímetros no ar ou sobre pequenos vãos. Os Hulg'run não respiram, mas precisam de contato com o ar para sobreviver e são lentamente prejudicados pela falta de oxigênio. Esse efeito não é totalmente compreendido, mas torna grandes corpos d'água especialmente perigosos, já que os Hulg'run não conseguem nadar e afundariam rapidamente até o fundo, onde morreriam lentamente por asfixia.
+
+## Conexões culturais
+
+Os Hulg'run foram criados muito antes dos eventos do Estilhaçamento e foram aliados dos Gigantes Shent por milhares de anos. Como resultado, estavam profundamente enraizados em sua cultura, e muitos Hulg'run foram destruídos juntamente com seus criadores durante o próprio Estilhaçamento. No entanto, os Hulg'run estavam cientes dos planos dos Shent de criar duas novas raças, os Keth e os Kivhar, e tornaram-se os professores e protetores dessas jovens raças por muitas centenas de anos, sobrevivendo em número suficiente para continuar se reproduzindo. Desde então, os Hulg'run ainda estão fortemente integrados às culturas Keth e Kivhar em todo o continente de Aterica, como os Striders, os Kithil e os Bejak. Existem até alguns Hulg'run incrivelmente antigos que se lembram dos Shent e ainda ensinam suas lições e transmitem sua sabedoria às gerações mais jovens.
+
+Além dessas culturas, os Hulg'run são ocasionalmente encontrados em pequenos grupos familiares ou clãs, como mineiros e exploradores ou simplesmente vivendo pacificamente em locais remotos, alguns ainda mantendo as práticas culturais dos Shent. Um pequeno número pode ser encontrado no Planalto de Arctus, entre os Arcturianos, e na grandiosa e brilhante cidade de Ordain. Há apenas um lugar onde os Hulg'run se recusam a viver: ao lado dos Gigantes Varún, nas terras interiores e planícies da Espinha de Brasa. Todos os Hulg'run parecem ter uma resistência instintiva, que beira o repúdio, à cultura Varún, acreditando que eles traíram o legado dos Shent.

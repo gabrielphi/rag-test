@@ -1,0 +1,44 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Oaken, Barba, Resistente, Oakengard, Caçador]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide (Vrjnhar) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,34 e 1,65 |
+| **Tempo de vida** | 600-800 anos |
+| **Movimento** | Caminhada 7,5m (25ft) |
+| **Línguas** | Comum, Hardac |
+
+## Habilidades de raça
+
+### Defesa de barba
+
+Quando você é atingido por um ataque de arma ou magia, você pode gastar sua **Reação** para se proteger, **recebendo o golpe em sua barba**. Sua **Classe de Armadura (CA)** aumenta em **+2** contra o ataque que desencadeou esta Reação. Se este bônus fizer com que sua Classe de Armadura exceda a rolagem de ataque, o ataque contra você erra.
+
+Você pode usar esta característica um número de vezes igual ao seu **bônus de proficiência**. Você recupera todos os usos gastos desta característica quando termina um **descanso curto**.
+
+### Vigor formidavel
+
+Ao terminar um descanso curto, você pode escolher uma característica que tenha usos limitados que se recuperam ao terminar um descanso longo e imediatamente recuperar um uso dessa característica. Alternativamente, você pode reduzir seu nível de Exaustão em 1.
+
+Uma vez que você tenha usado esta característica, você não poderá fazê-lo novamente até depois de terminar um descanso longo.
+
+## Detalhes da raça
+
+Oakengarde é uma região repleta de criaturas e plantas mortais, muitas das quais espreitam sob as encostas geladas das montanhas, à espera de presas. Para sobreviver nesta terra inóspita, o corpo dos Vrjnhar adaptou-se ao longo do tempo, tornando-se robusto e musculoso, com órgãos duplicados, pelagem espessa e barbas resistentes a danos físicos e mágicos, além de uma coluna vertebral com uma curvatura acentuada que posiciona os ombros dos Vrjnhar na linha de perigo, protegendo seus pescoços, que são mais vulneráveis. Essa resiliência, juntamente com sua resistência física, faz dos Vrjnhar alguns dos humanoides mais resistentes de toda Ember. Até mesmo suas barbas, que geralmente mantêm meticulosamente aparadas, não podem ser cortadas com ferramentas de barbear comuns, exigindo pedras preciosas ou ferramentas especialmente projetadas para sua manutenção.
+
+## Biologia
+
+Os Vrjnhar possuem muitas adaptações biológicas para sobreviver ao ambiente extremamente hostil de Oakengard. Sua pele grossa e coriácea é difícil de perfurar, mesmo com aço afiado, e seus ossos são mais densos que a média, com maiores quantidades de ferro, tornando-os resistentes e muito duráveis. Dentro de seus corpos, os Vrjnhar possuem dois corações, três pulmões e uma caixa torácica e estômago completamente protegidos por pequenas placas ósseas que permitem uma ampla gama de movimentos atléticos, funcionando quase como uma armadura sob a pele.
+
+Sua digestão é igualmente robusta, com uma vesícula biliar sulfúrica adicional que produz ácidos poderosos, decompondo até mesmo os materiais mais repugnantes ou intragáveis. Como resultado, os Vrjnhar são capazes de comer alimentos que outros considerariam intragáveis, perigosos ou mortais, e frequentemente usam temperos em abundância ao preparar a comida. Existem variedades de pimenta, por exemplo, que têm um efeito tão poderoso em outras raças que apenas os Vrjnhar conseguem realmente apreciar seu sabor.
+
+A barba de um Vrjnhar geralmente é espessa e volumosa, e possui a mesma resistência à tração que o aço. Ela, assim como sua pelagem, também possui efeitos antimágicos, com feitiços às vezes (mas nem sempre) se dissipando ao contato.
+
+## Conexões culturais
+
+A maioria dos Vrjnhar em Ember pertence à cultura Oaken, centrada no continente de Oakengard. Assim como Oakengard moldou a ancestralidade dos Vrjnhar, também moldou a cultura Oaken, que reverencia a sobrevivência, a aventura, a caça a monstros e a destreza marcial. Muitos Vrjnhar deixam Oakengard e viajam para outros lugares, confiantes em sua resistência física para se manterem seguros durante suas jornadas. Embora muitos Vrjnhar eventualmente retornem a Oakengard após suas aventuras, atraídos pelos desafios dessa terra perigosa, alguns se estabelecem em pequenos grupos em outros lugares e entre outras culturas. Um dos grupos mais antigos desse tipo é um enclave em Ordain, que mantém uma forte relação comercial com os Oaken há centenas de anos.

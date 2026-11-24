@@ -1,0 +1,52 @@
+### Altyra
+
+## **Características da raça**
+
+| **Tipo** | Humanoide (Altyra) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,82 e 2,05 |
+| **Tempo de vida** | 130-175 anos |
+| **Movimento** | Caminhada 9m (30ft) |
+| **Imunidade a condição** | Doente, Envenenado |
+| **Línguas** | Comum, Tyraphic |
+
+## Habilidades de Raça
+
+### Metalic Blood(Sangue Metálico)
+
+- Você é imune as condições envenenado e doente
+
+### Transformação Tyraphic
+
+No seu turno você pode iniciar a transformação como uma ação bonus. A transformação dura por 1 minuto. Enquanto transformado o Altyra ganha os seguintes benefícios:
+
+- Você tem resistência a dano radiante
+- Uma vez por rodada, quando você acertar com sucesso um inimigo com um ataque de magia corpo a corpo ou a distancia, você causa 1d4 de dano radiante adicional
+- Você tem vantagem nos testes de intimidação
+
+Você também pode encerrar a transformação antes no seu turno com uma ação bônus.
+
+Você não pode utilizar essa habilidade novamente antes de realizar um descanso longo.
+
+## Detalhes da raça
+
+Os Altyra foram criados a partir de humanos e seguem de perto a forma e a estrutura humanoides básicas. De longe, essa ancestralidade é frequentemente confundida com a dos humanos, e é somente ao examiná-los de perto que as diferenças, um tanto alarmantes, começam a aparecer. Sua pele é geralmente impecável, com poucas manchas ou defeitos, além de ter uma textura estranhamente lisa e um leve brilho metálico que parece cintilar sob a luz direta e brilha suavemente à noite. As cores de sua pele variam entre prateado, dourado, branco, creme, cinza-ferro escuro e, em indivíduos raros, cores mais intensas, como cobre vibrante. Linhas tênues, padrões em espiral ou costuras se cruzam e entrelaçam o corpo de um Altyra, seguindo os contornos dos músculos em alguns casos, dando-lhes uma aparência quase construída, como se os membros tivessem sido costurados.
+
+A ancestralidade Altyra possui a notável capacidade de transformar seus corpos em estruturas metálicas, ainda que por um curto período; essa transformação é impressionante, perturbadora e fascinante em igual medida. Os corpos dos Altyra armazenam grandes quantidades de metal líquido na forma de seu "sangue", e eles podem usar temporariamente esse metal para alimentar suas transformações. Sua forma alternativa varia muito entre os Altyra, podendo ser uma carapaça metálica protetora ao redor do corpo, aumento de tamanho e força, manifestação de armas ou até mesmo o surgimento de asas. Em alguns casos raros, os membros podem se desconectar e flutuar ao lado do corpo principal, mas não podem se afastar muito sem causar grande dor. Finalmente, seus rostos são frequentemente cobertos por estranhos símbolos emissores de luz. Esses símbolos são geralmente palavras baseadas em Luxarum, mas o significado é extremamente difícil de decifrar, mesmo para o próprio indivíduo. Cada Altyra geralmente possui uma forma específica que pode gerar, que se manifesta pela primeira vez durante o final da puberdade.
+
+Os olhos de um Altyra são a característica física mais proeminente quando não estão transformados. Eles brilham com uma intensa luz dourada, laranja ou branca, e, sem íris ou pupila, podem parecer intensamente penetrantes ou até mesmo assustadores quando imersos na escuridão. À medida que os Altyra crescem e manifestam seus poderes transformadores durante a puberdade, suas cabeças, antes lisas e sem pelos, são frequentemente adornadas com novos penteados que acompanham as tendências locais. O cabelo metálico fino em si é um aspecto adaptável de sua transformação e permanece puramente cosmético.
+
+## Biologia
+
+O "sangue" de um Altyra é frequentemente descrito como metal líquido e tem a mesma cor da sua pele e cabelo, embora muito mais vibrante. Durante a transformação, o sangue de metal líquido é manipulado para aprimorar e criar novas formas. Ainda assim, o processo é desgastante para a maioria, por isso só pode ser feito periodicamente e por curtos períodos. Mesmo quando não está sendo manipulado, o sangue metálico é o principal responsável por várias características, tornando os Altyra mais resistentes e difíceis de matar, e permitindo que regenerem membros perdidos ao longo do tempo. Infelizmente, sua natureza metálica tem um custo: quando submetidos a temperaturas congelantes, os Altyra ficam consideravelmente mais lentos, e suas formas flexíveis tornam-se quase impossíveis de serem expressas. Além disso, sua forma torna-se quebradiça, e há rumores de que eles podem se estilhaçar e rachar, com pedaços de seus corpos se desprendendo completamente.
+
+O conteúdo metálico em sua pele lhes confere um leve brilho sob a luz do sol e da lua, além de um baixo nível de bioluminescência à noite. Seu sangue é responsável pela regeneração ao longo do tempo, e um Altyra pode até mesmo regenerar membros perdidos, mas esse processo é lento e leva muitos anos.
+
+Os Altyra possuem apenas ossos vestigiais nos braços e pernas, e seus músculos fazem a maior parte do trabalho, tanto para manter a estrutura corporal unida quanto para se manterem eretos. Seus músculos são metálicos e muito mais fortes do que a carne normal, o que é parte do motivo pelo qual um Altyra pode se transformar. Devido à falta de tecido e carne puramente orgânicos, os Altyra possuem forte resistência a venenos e doenças. Isso foi um fator crucial durante sua criação e primeiros anos, e também lhes tem sido muito útil nos séculos seguintes.
+
+## Conexões culturais
+
+A maioria dos Altyra que vivem na superfície do Mundo de Ember reside na cidade de Ancalen, cuja cultura Railen é militarista e isolacionista, e cuja riqueza foi parcialmente construída sobre a capacidade de reaproveitar os tesouros e recursos das cidades vizinhas que caíram durante a época da praga virulenta. Ancalen é uma das Grandes Cidades do mundo, mas é uma cidade que permaneceu fechada para estrangeiros até recentemente, e mesmo hoje, algumas áreas da cidade são restritas.
+
+Com o passar do tempo, os Altyra se espalharam por outras regiões de Ember em pequeno número. Muitos que deixam os limites de Ancalen o fazem para escapar dos ideais dogmáticos e restritivos do conselho de três de Ancalen. Eles tentam rejeitar esses ensinamentos e se esforçam para interagir, aprender e se integrar a outras culturas. A maioria das outras culturas em Ember vê os Altyra com bons olhos, com apenas uma leve apreensão caso descubram que são da cidade de Ancalen.

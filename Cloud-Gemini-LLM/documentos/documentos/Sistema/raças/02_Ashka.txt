@@ -1,0 +1,44 @@
+### Ashka
+
+## **Características da raça**
+
+| **Tipo** | Humanoide (Ashka) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,96 e 2,29 |
+| **Tempo de vida** | 80-100 anos |
+| **Movimento** | Caminhada 9m (30ft) / Natação 9m (30ft) |
+| **Línguas** | Comum, Scor |
+| Sentido  | Termal (60ft) |
+
+## Habilidades de raça
+
+### Adaptabilidade anfibia
+
+Você tem velocidade de nado de 30ft(9m). Você pode segurar a respiração enquanto está embaixo da água por até 20 minutos.
+
+### Visão termal
+
+Você pode detectar diferenças sutis de temperatura com precisão. Você pode localizar **criaturas que são de sangue quente ou que de outra forma emitem calor a até 60 pés de distância**, desde que não estejam atrás de cobertura total e você não esteja cego ou incapacitado.
+
+Isto geralmente inclui criaturas dos seguintes tipos: **Besta, Celestial, Dragão, Fey, Corruptor, Gigante, Humanoide, Monstruosidade**. Certas exceções podem se aplicar onde criaturas desses tipos não emitem calor, ou criaturas de outros tipos o fazem.
+
+Uma criatura detectada usando **Visão Térmica** é tratada como **visível** para os propósitos de ações que exigem que você veja seu alvo.
+
+## Detalhes da raça
+
+Os Ashka são uma raça esguia, semelhante a serpentes, com várias características aquáticas que os tornam idealmente adaptados a ambientes semiaquáticos, como pântanos, litorais e selvas úmidas. Eles também conseguem respirar debaixo d'água por longos períodos, muito mais do que a maioria das outras raças. Sua característica física mais proeminente é o formato da cabeça, que se estende sobre os ombros e geralmente se conecta aos músculos das costas, formando uma espécie de capuz. Esses capuzes nem sempre estão presentes, mas a maioria dos Ashka os exibe de alguma forma. Seus corpos são cobertos por escamas delicadas e pele facial mais macia, com padrões intrincados e coloridos que se entrelaçam por todo o corpo e cabeça. Alguns Ashka fogem a essas características, apresentando uma aparência menos suave e mais áspera, com escamas pronunciadas, sobrancelhas salientes e corpos completamente cobertos de escamas, inclusive no rosto. Seus pescoços são ligeiramente mais longos do que os de muitas outras raças e, juntamente com sua flexibilidade, lhes permitem girar e se mover rapidamente, observando o mundo ao seu redor em todas as direções. Os Ashka também possuem caudas longas e grossas, parcialmente preênseis e, às vezes, capazes de impressionantes demonstrações de destreza, que os impulsionam na água.
+
+Os Ashka possuem várias características menos óbvias, mas essenciais, como mãos e pés palmados que lhes permitem nadar com mais eficiência e fendas nas narinas com receptores térmicos que lhes permitem rastrear e detectar criaturas de sangue quente. Acredita-se que os Ashka tenham sido criados como caçadores proficientes e adaptáveis para manguezais e selvas semi-florestadas, já que são excepcionalmente bem adaptados a esses ambientes úmidos. Infelizmente, isso os torna sensíveis em outras áreas, e eles se sentem muito menos confortáveis em climas e biomas secos, sofrendo com pele seca, problemas nas escamas e doenças pulmonares.
+
+Os olhos dos Ashka diferem da maioria das criaturas serpentinas e não são fendidos como os de uma cobra, possuindo uma pupila redonda e apresentando uma ampla gama de cores. A esclera raramente é branca, sendo geralmente de um amarelo ou laranja intenso, conferindo aos Ashka uma aparência ligeiramente predatória. Os Ashka são conhecidos por serem capazes de detectar criaturas com seus receptores térmicos faciais. No entanto, não se sabe se isso está de alguma forma conectado aos seus olhos, já que eles possuem uma visão excepcional no geral. A combinação desses fatores pode ser responsável por sua notável capacidade de perceber objetos próximos e distantes em condições extremamente difíceis.
+
+## Biologia
+
+A biologia dos Ashka difere singularmente da de outras raças e parece ser cuidadosamente controlada ou elaborada em vários aspectos. Seus esqueletos possuem centenas de ossos finos, o que lhes confere uma flexibilidade incrível, e a posição de seus órgãos vitais é organizada de forma precisa, com o coração localizado no centro do peito, entre grandes pulmões. Os Ashka também são mesotérmicos, uma estranha combinação entre criaturas de sangue frio e de sangue quente. Eles podem elevar a temperatura corporal conscientemente, mas geralmente mantêm a temperatura corporal baixa, como criaturas de sangue frio, o que os torna apreciadores de temperaturas mais quentes e do fogo. No entanto, isso tem um custo: o corpo de um Ashka requer uma certa quantidade de umidade para se manter saudável, pois utiliza e necessita de mais água do que o de outras raças.
+
+Os Ashka são particularmente habilidosos em movimentos subaquáticos, possuindo diversas características físicas, como mãos e pés palmados e caudas musculosas e grossas, que os auxiliam na locomoção debaixo d'água. Seu sangue também é capaz de reter mais oxigênio do que o de outras raças, permitindo-lhes prender a respiração por longos períodos. Contudo, isso também tem um custo: os Ashka são vulneráveis a poluentes atmosféricos que podem afetar seus pulmões, tornando-os propensos a danos pulmonares permanentes.
+
+## Conexões Culturais
+
+Atualmente, os Ashka não possuem nenhuma dominância cultural significativa que possam considerar sua na superfície de Ember. No entanto, afirma-se que, há muito tempo, durante a Era das Feras e a Era da Luz do Sol, eles possuíam uma cultura rica e repleta de histórias, chamada Sedyri. Isso é algo que a maioria dos Ashka aprende com seus pais, o que, à primeira vista, pode parecer baseado em ancestralidade, mas que às vezes inclui outros indivíduos e pode, de fato, ter origem nessa cultura incrivelmente antiga. A maioria dos Ashka vive em pequenos grupos familiares e, como parte de culturas maiores, frequentemente formam pequenos enclaves, tentando manter alguma semelhança com sua própria identidade cultural. Esses enclaves procuram manter a história e as tradições vivas da melhor maneira possível, mas cada geração sucessiva se integra cada vez mais às culturas ao seu redor. Os Ashka são raros na maioria das culturas, mas não são desconhecidos e podem ser encontrados em muitas terras distantes, mais frequentemente como marinheiros, comerciantes ou aventureiros.

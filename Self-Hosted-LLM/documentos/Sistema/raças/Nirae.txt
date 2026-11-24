@@ -1,0 +1,59 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Aediri, Magia, Marcas, Olhos Estranhos, Premonição]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,73 e 1,96 |
+| **Tempo de vida** | 100-220 anos |
+| **Movimento** | Caminhada 9m (30ft) |
+| **Línguas** | Comum, Aediri |
+
+## Habilidades de raça
+
+### Reflexão premonitória
+
+Suas marcas de nascença iridescentes fornecem a você uma notável habilidade de evadir ou redirecionar instintivamente magia hostil.
+
+- Quando você **falha** em um teste de resistência contra uma magia ou efeito mágico que o alveja diretamente, você pode rolar um **d20 adicional**, mantendo o resultado deste dado adicional.
+- Quando você **obtém sucesso** em um teste de resistência contra uma magia que o alveja diretamente com um resultado de **20 na rolagem do d20**, você pode gastar sua **Reação** para redirecionar instintivamente a energia dessa magia, fazendo com que ela afete um **alvo alternativo** dentro do alcance da magia que não seja o conjurador original. O alvo alternativo deve fazer um teste de resistência contra a magia, e quaisquer efeitos da magia são aplicados a esse alvo. Se nenhum alvo alternativo estiver disponível, esta característica não pode ser usada.
+
+Depois de usar esta característica de qualquer uma das formas, você não pode fazê-lo novamente até terminar um **descanso longo**.
+
+### Olhos estranhos
+
+Você conhece a magia simples (cantrip) **Ataque Verdadeiro (True Strike)**.
+
+Começando no **3º nível**, você pode conjurar a magia **Detectar Magia (Detect Magic)** com esta característica.
+
+Começando no **5º nível**, você pode conjurar a magia **Ver o Invisível (See Invisibility)** com esta característica.
+
+Assim que você conjura **Detectar Magia** ou **Ver o Invisível** com esta característica, você não pode conjurar essa magia novamente com ela até terminar um **descanso longo**. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia (spell slots) que você possua do nível apropriado.
+
+**Inteligência, Sabedoria ou Carisma** é a sua habilidade de conjuração para estas magias quando você as conjura com esta característica; escolha qual delas ao selecionar esta Ancestralidade. Nenhuma destas magias requer **componentes materiais** quando você as conjura com esta característica.
+
+## Detalhes da raça
+
+Embora o Império Aedir tenha se estendido por toda Ember em seu auge, abrangendo muitas etnias diferentes, ele estava mais intimamente ligado aos Nir'ae, uma etnia cuja energia mágica podia ser claramente vista em suas marcas de nascença iridescentes e padrões na pele. Esses padrões, causados pela exposição a artefatos arcanos sob o controle do Império, eram frequentemente vistos como um sinal de alguém favorecido pelo Império. Isso mudou com a queda do Império, que causou o cataclismo conhecido como a Fragmentação. Muitos Nir'ae foram mortos, o mundo mergulhou no caos e as marcas que antes eram motivo de orgulho passaram a ser vistas com desconfiança.
+
+Nos dias atuais, os Nir'ae são raros, mas podem ser encontrados por toda Ember. Eles permanecem ligados às forças do cosmos e mantiveram sua conexão com a magia, apesar das muitas gerações que se passaram desde a queda do Império Aedir. Embora já tenham se passado gerações desde a perda do Império, os Nir'ae da atualidade ainda podem se comunicar com Ember e obter algum poder durante os zênites lunares ou quando estão perto de artefatos que possuem grande poder arcano.
+
+## Biologia
+
+Os Nir'ae são humanoides altos e esguios, cujas orelhas longas e afiladas emolduram seus rostos de olhos grandes. Essas orelhas podem ser movidas independentemente do resto do rosto e uma da outra, e podem ser usadas para expressar emoções ou adicionar significado extra. Da mesma forma, a cor da íris dos grandes olhos de um Nir'ae muda várias vezes ao longo das estações de sua vida, muitas vezes ligada a momentos importantes de expressão mágica ou transformação pessoal. Seus tons de pele e cores de cabelo, que permanecem os mesmos durante toda a vida, apresentam uma ampla gama de tonalidades, com cores que refletem sua proximidade com Lantyr no momento do nascimento.
+
+A característica física mais marcante dos Nir'ae são suas marcas de nascença iridescentes, que geralmente se estendem pelos contornos do rosto e do tronco. Os padrões aparecem em um Nir'ae ao nascer e podem crescer e mudar com a idade. Elas são mais do que apenas cosméticas, gerando um efeito mágico que oferece aos Nir'ae alguma proteção contra feitiços e magia prejudicial, e permitindo-lhes acessar as forças mágicas de Ember em momentos e lugares onde são especialmente potentes, como durante o zênite lunar.
+
+Essas marcas, juntamente com a conexão inerente da raça com a magia, derivam da longa exposição dos Nir'ae à influência arcana do Olho de Aedon e do Coração de Ember durante os muitos milhares de anos em que o Império Aedir estabeleceu seu lar no Escudo Estelar.
+
+## Conexões culturais
+
+Para a maioria dos habitantes de Ember, os Nir'ae são uma lembrança antiga. A maioria dos Nir'ae foi morta quando a Torre do Sol, construída pelo Império Aedir, explodiu, matando todos na Estrela Escudo e dando início à era conhecida como o Estilhaçamento. Embora o Império Aedir fosse composto por membros de diversas origens, muitos de seus líderes mais visíveis e conhecidos eram Nir'ae, o que levou alguns a associarem essa ancestralidade à arrogância do Império e a vê-los com suspeita ou desconfiança.
+
+Várias expressões culturais populares durante o apogeu do Império Aedir, incluindo o uso de cosméticos para enfatizar ou substituir as marcas de pele características dos Nir'ae, tornaram-se profundamente impopulares da noite para o dia, e muitos Nir'ae se juntaram a novas comunidades culturais e se distanciaram de tudo o que tivesse a ver com a cultura Aediri. A maior exceção são os povos ocultos de Lorai, que deixaram a Estrela Escudo muito antes do Estilhaçamento para viverem no subsolo, nas profundezas das montanhas do norte de Oakengard. A maioria dos Nir'ae encontrados atualmente vem dessa região, embora existam pequenos grupos isolados em outras partes de Ember.
+
+Ao viverem fora das montanhas, alguns Nir'ae ainda escondem sua verdadeira ancestralidade e linhagem, mesmo que a reação atual a eles tenda mais para a fascinação e a surpresa do que para o preconceito, especialmente no Planalto de Arctus e em Ordain. Outros se interessaram pelo passado do Império Aedir, viajando por Ember em busca da história perdida do Império, e outros não têm nenhuma ligação real com o que consideram história antiga e se integraram completamente a outra cultura moderna.

@@ -1,0 +1,21 @@
+---
+tipo_documento: lua
+source_book: Guia de Ember
+tags: [Hidrocinese, Tormentas, Perseverança, Abismo, Ecossistemas, Marés]
+---
+
+# Mayis: A Lua da Tempestade (The Tempest Moon)
+
+Mayis é um mundo de movimento incessante, envolto em tempestades titânicas que rugem desde a Criação (Creation). Sua superfície é um único oceano agitado de água escura e cintilante, onde fragmentos de ilhas despedaçadas flutuam tanto sobre quanto acima das ondas. As profundezas são vivas com inúmeras criaturas que surgem da escuridão, com suas formas vislumbradas apenas através de clarões de relâmpagos. Em algum lugar profundo dentro da lua flutua a lendária cidade de Tohr (Tohr), um lugar de serenidade calma em meio aos perigos, onde águas tranquilas refletem a paciência (patience) que define a própria lua.
+
+**Características Concedidas — Sintonização com Mayis (Mayis Attunement)**
+* **Palavras-chave:** Água (Water), Sobrevivência (Survival), Tempestades (Storms)
+* **Ideal:** Paciência (Patience)
+* **Era:** Eras Incontáveis (Countless Ages)
+* **Outros Nomes:** A Lua da Tempestade (The Tempest Moon), O Imensurável (The Fathomless), A Maré Eterna (The Eternal Tide)
+
+Tempestades eternas de cinza, branco e azul envolvem Mayis em um manto permanente de furacões uivantes e imparáveis. No entanto, sob esta atmosfera turbulenta jaz um oceano escuro e revolto, interrompido por ilhas flutuantes despedaçadas que sobem e descem com as ondas ondulantes da lua. Imensa e indomada, Mayis é uma extensão elemental perigosa onde massivos elementais da água de outro mundo nadam através das correntes, e enormes behemoths (behemoths) esperam à espreita atrás de ilhas de gelo subaquáticas flutuantes.
+
+Ilhas flutuantes e recifes à deriva formam ecossistemas complexos, desde florestas de kelp (kelp) e labirintos de corais perto da superfície até montanhas subaquáticas geladas e florestas bioluminescentes nas profundezas. Bolsões de corrupção Abissal (Abyssal corruption) remanescente distorcem algumas criaturas em formas mais agressivas e malévolas, contudo, mesmo esses perigos movem-se com as correntes e marés inexoráveis da lua.
+
+Para os mortais em Ember (Ember), Mayis personifica tanto o temor quanto a cautela. Suas tempestades implacáveis e oceanos vastos e imprevisíveis são vistos como símbolos da força e do poder imorredouro das ondas. Marinheiros, viajantes e videntes falam da lua como um lugar que testa tanto a mente quanto o espírito, oferecendo percepção e recompensa apenas para aqueles dispostos a esperar, observar e respeitar seus ritmos.

@@ -1,0 +1,27 @@
+---
+tipo_documento: Criatura
+source_book: Guia de Ember
+tags: [Leviatã, Fera Antiga, Colossal, Primordial, Deuses Estilhaçados, Predador]
+---
+# Leviatãs
+
+Os **Leviatãs** são criaturas colossais e antigas de Ember, que vagam pelo mundo da superfície desde os primórdios da **Era das Feras**. Eles podem variar amplamente em forma e aparência, mas tendem a seguir formas naturais e animalescas, muitas vezes com características ampliadas ou impressionantemente acentuadas. Alguns se inserem em ecossistemas, tornando-se os predadores alfa daquela área; outros são muito mais destrutivos e tendem a despojar a vida e afetar a terra ao seu redor de maneiras estranhas.
+
+---
+
+* **Palavras-chave:** Primordial, Colossal, Forte
+* **Tipo de Ember:** Criatura
+* **Tipo:** Feras
+* **Outros Nomes:** Feras Antigas
+
+---
+
+Os Leviatãs são algumas das criaturas mais antigas que já existiram, ou pelo menos é o que as pessoas acreditam. Em muitos contos e histórias, eles são guardiões de lugares antigos e criaturas do mundo e da natureza. Isso está muito longe da verdade, no entanto, e alguns grupos e mortais no mundo de hoje conhecem a realidade. 
+
+Os Leviatãs são criaturas naturais, sim, mas são frequentemente forças ruinosas, mortais e destrutivas que matam, comem e devastam os ambientes ao seu redor. No passado, eles foram impedidos de destruir o mundo por heróis primordiais como o Deus Estilhaçado **Janar**, que os caçava e protegia os mortais de sua ira destrutiva.
+
+Alguns raríssimos Leviatãs parecem ter transcendido sua natureza bestial e ascendido como **Deuses Estilhaçados**, como a grande serpente de osso, **Obrisire**. No entanto, isso é incrivelmente raro, e poucos exemplos de tais criaturas existem, apesar dos vastos períodos de tempo envolvidos.
+
+Hoje, os Leviatãs podem ser encontrados em todo o mundo de Ember; eles são raros, mas não inteiramente incomuns, e se você explorar os lugares selvagens do mundo, é provável que encontre um escondido nas florestas mais profundas ou caminhando pelas planícies sem fim ou tundras. Eles devem ser evitados, no entanto, e possuem reputações temíveis; muitas culturas próximas chegam a protegê-los ou, pelo menos, garantem que ninguém entre em seus territórios para perturbá-los.
+
+Os Leviatãs não possuem uma aparência básica definida; eles assumem a forma de criaturas e animais enormes, frequentemente gigantescos ou até colossais, que são mais selvagens, ferozes e absolutamente mortais. Diz-se que alguns Leviatãs têm muitos quilômetros de extensão e tamanho, sendo as maiores forças da região simplesmente porque nenhuma outra força pode destruí-los. Eles são conhecidos por matar Dragões e até mesmo **Deuses Estilhaçados**, e existem contos mitológicos de Deuses Estilhaçados caindo em batalha contra eles, como no caso de **Orinoth, o Assassino de Deuses**.

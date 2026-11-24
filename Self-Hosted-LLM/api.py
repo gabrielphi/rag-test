@@ -155,16 +155,18 @@ def load_valid_topics():
             
     print(f"✅ {count} tópicos válidos indexados.")
 
-async def extract_search_intent(query: str, llm) -> SearchIntent:
+async def extract_search_intent(query: str, llm, chat_history: List = []) -> SearchIntent:
     """
-    Versão Blindada: Usa Regex para limpar markdown e força JSON puro.
-    Resistente a 'chatice' do modelo (introduções, repetições).
+    Versão Blindada & Com Contexto: Usa Regex para limpar markdown e considera histórico.
     """
     # 1. Prompt muito mais explícito e autoritário
     system_prompt = """
     ATENÇÃO: Você é um SISTEMA (API), não um assistente de chat.
     Sua única função é converter a query do usuário em um objeto JSON de filtros.
-    NÃO responda a pergunta. NÃO repita a pergunta. NÃO explique.
+    
+    CONTEXTO ANTERIOR (HISTÓRICO):
+    Use o histórico fornecido para resolver pronomes como "deles", "ele", "daquilo".
+    Ex: Se o histórico fala de "Hulgrun" e a pergunta é "Quais habilidades deles?", a entidade É "Hulgrun".
     
     SCHEMA JSON OBRIGATÓRIO:
     {{
@@ -181,29 +183,29 @@ async def extract_search_intent(query: str, llm) -> SearchIntent:
     3. Se o usuário quer UMA LISTA ou VISÃO GERAL, marque "requires_index": true.
     
     EXEMPLOS:
-    Input: "O que diz a politica de RH?"
-    Output: {{"entities": ["Politica de RH"], "topics": [], "is_global_query": false, "requires_index": false, "context_filter": "RH"}}
+    History: [User: Fale sobre Hulgrun]
+    Input: "O que eles comem?"
+    Output: {{"entities": ["Hulgrun"], "topics": ["Dieta"], "is_global_query": false, "requires_index": false, "context_filter": "Raça"}}
     
-    Input: "Como configurar o ambiente?"
-    Output: {{"entities": [], "topics": ["Configurar Ambiente"], "is_global_query": false, "requires_index": false, "context_filter": "Tecnologia"}}
-    
-    Input: "Liste todos os documentos de marketing"
-    Output: {{"entities": [], "topics": [], "is_global_query": false, "requires_index": true, "context_filter": "Marketing"}}
-
     Input: "Como funciona o combate?"
     Output: {{"entities": [], "topics": ["Combate"], "is_global_query": false, "requires_index": false, "context_filter": "Regra"}}
     """
     
+    # Formata histórico para string simples
+    history_text = ""
+    if chat_history:
+        history_text = "\n".join([f"{msg.type}: {msg.content}" for msg in chat_history[-2:]]) # Pega só os ultimos 2 pares
+
     prompt = ChatPromptTemplate.from_messages([
         ("system", system_prompt),
-        ("human", "Input: {question}\nOutput JSON:")
+        ("human", "History:\n{history_text}\n\nInput: {question}\nOutput JSON:")
     ])
     
-    # Invocamos o LLM diretamente (sem o parser na chain para podermos limpar o texto antes)
+    # Invocamos o LLM diretamente
     chain = prompt | llm
     
     try:
-        response_msg = await chain.ainvoke({"question": query})
+        response_msg = await chain.ainvoke({"question": query, "history_text": history_text})
         
         # O LangChain pode retornar string ou objeto AIMessage dependendo da versão
         content = response_msg.content if hasattr(response_msg, 'content') else str(response_msg)
@@ -212,17 +214,14 @@ async def extract_search_intent(query: str, llm) -> SearchIntent:
         print(f"🕵️ RAW INTENT RESPONSE: {content[:200]}...") 
         
         # --- LIMPEZA CIRÚRGICA (A "Blindagem") ---
-        # 1. Remove blocos de código markdown (```json ... ```)
         content = re.sub(r'```json\s*', '', content)
         content = re.sub(r'```', '', content)
         
-        # 2. Tenta encontrar onde começa o JSON '{' e onde termina '}'
         start = content.find('{')
         end = content.rfind('}') + 1
         
         if start != -1 and end != -1:
             clean_json = content[start:end]
-            # Faz o parse manual
             data = json.loads(clean_json)
             return SearchIntent(**data)
         else:
@@ -230,8 +229,6 @@ async def extract_search_intent(query: str, llm) -> SearchIntent:
 
     except Exception as e:
         print(f"❌ ERRO NO PARSER DE INTENÇÃO: {e}")
-        print(f"   Conteúdo que falhou: {content[:100]}...")
-        # Fallback: Busca Global
         return SearchIntent(is_global_query=True)
 
 def build_dynamic_rag_chain(intent: SearchIntent):
@@ -258,23 +255,14 @@ def build_dynamic_rag_chain(intent: SearchIntent):
     
     # A. Priorização de Índice (Listagens) - PRIORIDADE MÁXIMA
     # Se requer índice, filtramos por índice INDEPENDENTE se é query global ou não.
-    if intent.requires_index:
-        print("📑 Detectada intenção de ÍNDICE/LISTAGEM.")
-        filters_list.append({"is_index": True})
-        if intent.context_filter:
-            filters_list.append({"context_type": intent.context_filter})
-        
-        # Sobrescreve filtro para garantir que pegamos SÓ o índice
-        if len(filters_list) > 1:
-            search_kwargs["filter"] = {"$and": filters_list} # Tenta ser restritivo
-        else:
-             search_kwargs["filter"] = filters_list[0]
-        
-        print(f"🔒 Filtro Chroma (Index): {search_kwargs.get('filter')}")
+    # A. Priorização de Índice (Listagens)
+    # ANTERIORMENTE: Bloqueava tudo para buscar 'is_index=True'.
+    # MUDANÇA: Permitimos que o fluxo siga para busca de Entidades/Tópicos (Logic B).
+    # O 'requires_index' agora é apenas uma flag semântica, não um bloqueio de filtro.
+    pass
 
-
-    # B. Filtros de Entidade/Tópico (Apenas se NÃO for busca global E não for índice já tratado)
-    elif not intent.is_global_query:
+    # B. Filtros de Entidade/Tópico (Agora roda SEMPRE se não for busca global explícita)
+    if not intent.is_global_query:
         
         # B. Filtro Estrito de Entidade (Evita alucinação entre raças)
         # MAS: Se tiver Tópicos junto (Ex: "Fej na Ruptura"), é Cross-Reference. NÃO filtrar estrito se tiver tópico válido.
@@ -286,7 +274,7 @@ def build_dynamic_rag_chain(intent: SearchIntent):
             # Caso contrário (ex: "Pedra Viva" que é uma habilidade dentro de um arquivo), 
             # não filtramos metadata, deixamos o vector search achar no conteúdo.
             if normalized_entity in VALID_TOPICS:
-                primary_entity = intent.entities[0].strip().title()
+                primary_entity = intent.entities[0].strip().lower()
                 filters_list.append({"entity": primary_entity})
                 has_strict_filter = True
             else:
@@ -309,7 +297,7 @@ def build_dynamic_rag_chain(intent: SearchIntent):
             # Se tem tópicos válidos, aplica filtro estrito DESTE tópico
             if valid_topics_found:
                 for topic in valid_topics_found:
-                    clean = topic.strip().title()
+                    clean = topic.strip().lower()
                     # Tenta ser flexível: Source ou Category
                     filters_list.append({"source": clean})
                     filters_list.append({"category": clean})
@@ -326,24 +314,29 @@ def build_dynamic_rag_chain(intent: SearchIntent):
                      print(f"💉 Injetando contexto de 'Verificar Relação' para: {intent.entities} + {invalid_topics_found}")
                      
                      # Adicionamos um filtro de entidade para garantir que achamos algo sobre a entidade pelo menos
-                     primary_entity = intent.entities[0].strip().title()
-                     filters_list.append({"entity": primary_entity})
-                     
-                     # A mágica acontece no Prompt do LLM, mas aqui garantimos que o retriever traga dados da entidade
-                     # para o LLM poder dizer "Isso é sobre Fej, mas não achei nada sobre Terra do Nunca aqui."
+                     primary_entity = intent.entities[0].strip().lower()
+                     # FIX: Check if the entity is actually a valid file/topic before filtering.
+                     # If "Império Tayan" is NOT a file, filtering by entity="Império Tayan" returns nothing.
+                     # We only filter if it IS a valid context/file.
+                     if normalize_topic_name(intent.entities[0]) in VALID_TOPICS:
+                         filters_list.append({"entity": primary_entity})
+                     else:
+                         print(f"⚠️ Entidade '{primary_entity}' não é um arquivo físico. Ignorando filtro de metadados para permitir busca textual cruzada.")
                 else:
-                    # Se SÓ tem tópico inválido e nenhuma entidade... fallback para busca genérica total (sem filtro)
                     print("⚠️ Apenas tópico inválido detectado. Fallback para busca semântica aberta.")
                     pass
+
+        # Fallback: Se não geramos nenhum filtro (ex: Requires Index mas sem entidades),
+        # tentamos usar o Context Filter se disponível.
+        if not filters_list and intent.context_filter and intent.requires_index:
+             print(f"⚠️ Nenhum filtro de entidade gerado. Usando Context Filter: {intent.context_filter}")
+             filters_list.append({"context_type": intent.context_filter})
 
         # Monta o filtro final do Chroma
         if filters_list:
             if len(filters_list) > 1:
                 # Se tem vários critérios, usa OR 
-                if intent.requires_index:
-                     search_kwargs["filter"] = {"is_index": True}
-                else:
-                     search_kwargs["filter"] = {"$or": filters_list}
+                search_kwargs["filter"] = {"$or": filters_list}
             else:
                 search_kwargs["filter"] = filters_list[0]
             
@@ -361,16 +354,14 @@ def build_dynamic_rag_chain(intent: SearchIntent):
     if has_strict_filter:
         print("🚫 ESTRATÉGIA: VECTOR ONLY (Strict). BM25 Desativado para evitar poluição de contexto.")
         base_retriever = vector_retriever
-    elif intent.requires_index:
-        print("📑 ESTRATÉGIA: VECTOR ONLY (Index Focus). Focando em metadados de índice.")
-        base_retriever = vector_retriever
     else:
-        # Busca aberta/temática: BM25 ajuda a achar termos exatos no meio de textos grandes
+        # Busca aberta/temática/índice: 
+        # Mantemos Hybrid para pegar termos de lista E conteúdo semântico
         if keyword_retriever_global:
-            print("✅ ESTRATÉGIA: HYBRID (Vector + BM25). Melhor para buscas temáticas ou globais.")
+            print("✅ ESTRATÉGIA: HYBRID (Vector + BM25). Melhor para buscas temáticas, listas ou globais.")
             base_retriever = EnsembleRetriever(
                 retrievers=[keyword_retriever_global, vector_retriever],
-                weights=[0.4, 0.6]
+                weights=[0.3, 0.7] # Leve aumento no vector para generalizar mais
             )
         else:
             base_retriever = vector_retriever
@@ -378,22 +369,20 @@ def build_dynamic_rag_chain(intent: SearchIntent):
     # 4. MultiQuery (Opcional - Pode comentar se quiser mais velocidade)
     # Às vezes o MultiQuery também alucina termos. Vamos manter mas com atenção.
     
-    # OTIMIZAÇÃO: Se for busca de ÍNDICE, não queremos variações. Queremos o índice.
-    if intent.requires_index:
-        print("⏩ Pulo MultiQuery para busca de Índice (Foco na exatidão).")
-        multi_query_retriever = base_retriever 
-    else:
-        mq_prompt = ChatPromptTemplate.from_messages([
-            ("system", 
-            "Você é um assistente de busca. Reescreva a pergunta em 3 variações simples para encontrar a resposta no banco de dados."
-            "Você está PROIBIDO de tentar achar novos contextos, citando ferramentas ou documentos ou franquias que você não recebeu."),
-            ("human", "{question}")
-        ])
-        multi_query_retriever = MultiQueryRetriever.from_llm(
-            retriever=base_retriever,
-            llm=llm_global,
-            prompt=mq_prompt
-        )
+    # OTIMIZAÇÃO: Removemos o bloqueio de MultiQuery para índices.
+    # Se estamos buscando listas espalhadas, variações da pergunta ajudam MUITO.
+    # Ex: "Listar raças" -> "Quais espécies existem?", "Povos do cenário"
+    mq_prompt = ChatPromptTemplate.from_messages([
+        ("system", 
+        "Você é um assistente de busca. Reescreva a pergunta em 3 variações simples para encontrar a resposta no banco de dados."
+        "Você está PROIBIDO de tentar achar novos contextos, citando ferramentas ou documentos ou franquias que você não recebeu."),
+        ("human", "{question}")
+    ])
+    multi_query_retriever = MultiQueryRetriever.from_llm(
+        retriever=base_retriever,
+        llm=llm_global,
+        prompt=mq_prompt
+    )
 
     # 5. Reranker (Flashrank)
     compression_retriever = ContextualCompressionRetriever(
@@ -424,7 +413,24 @@ def build_dynamic_rag_chain(intent: SearchIntent):
         # podemos inferir ou melhor: fazer a lógica de "warning" ser explícita.
         
         # Recalculando rapidinho para ter certeza (overhead desprezível)
-        invalid_topics_found = [t for t in intent.topics if normalize_topic_name(t) not in VALID_TOPICS]
+        raw_invalid = [t for t in intent.topics if normalize_topic_name(t) not in VALID_TOPICS]
+        
+        # OTIMIZAÇÃO: 
+        # Não considerar inválido se o tópico contiver o nome de um arquivo existente.
+        # Ex: "Relação com Humanos" (Inválido) contém "Humanos" (Válido).
+        # Nesse caso, assumimos que é uma frase natural e NÃO um tópico alienígena.
+        invalid_topics_found = []
+        for term in raw_invalid:
+            term_norm = normalize_topic_name(term)
+            is_partial_match = False
+            for valid in VALID_TOPICS:
+                # Se "Humanos" está dentro de "relação com humanos", tá valendo.
+                if valid in term_norm and len(valid) > 3: 
+                    is_partial_match = True
+                    break
+            
+            if not is_partial_match:
+                invalid_topics_found.append(term)
         
         if invalid_topics_found and intent.entities:
              injection_msg = (
@@ -595,7 +601,7 @@ async def chat_completions(request: ChatCompletionRequest):
     # 2. Detecção de Intenção (Router)
     # Descobre se precisa filtrar por "Fej", "História", etc.
     print(f"🤔 Analisando intenção para: '{query}'")
-    search_intent = await extract_search_intent(query, llm_global)
+    search_intent = await extract_search_intent(query, llm_global, chat_history)
     
     # 3. Montagem da Chain Dinâmica
     current_chain = build_dynamic_rag_chain(search_intent)

@@ -1,0 +1,65 @@
+# LISTA MESTRE DE RAÇAS JOGÁVEIS E OPÇÕES DE PERSONAGEM
+
+### PERGUNTAS FREQUENTES
+* **Quais são todas as raças jogáveis?** Confira a lista completa abaixo.
+* **Lista completa de raças disponíveis:** Todas as 16 raças documentadas neste guia.
+* **Opções de criação de personagem:** Escolha uma raça baseada em sua origem e características únicas.
+
+---
+
+## RESUMO DAS RAÇAS DO SISTEMA
+Abaixo estão listadas todas as raças documentadas neste banco de dados. Use esta lista como referência principal.
+
+1.  **Altyra**
+    * *Origem:* Cidades flutuantes ou picos de alta altitude.
+    * *Características:* Visão aguçada, afinidade com os céus.
+2.  **Ashka (Povo das Cinzas)**
+    * *Origem:* Regiões vulcânicas.
+    * *Características:* Resistência ao fogo, pele rochosa.
+3.  **Cor'ak**
+    * *Origem:* Descendentes de Leviatãs.
+    * *Características:* Longevos, adaptados para processamento.
+4.  **Drakons**
+    * *Origem:* Linhagens dracônicas antigas.
+    * *Características:* Pele escamosa, grande força física.
+5.  **Fej**
+    * *Origem:* Florestas densas e regiões feéricas.
+    * *Características:* Estatura pequena, ágeis e furtivos.
+6.  **Humanos**
+    * *Origem:* Diversas.
+    * *Características:* Versatilidade.
+7.  **Hulg'run**
+    * *Origem:* Ermos devastados.
+    * *Características:* Constituição robusta, força bruta.
+8.  **Keth**
+    * *Origem:* Sociedades tecnocráticas.
+    * *Características:* Inteligência elevada, lógica aguçada.
+9.  **Kiska**
+    * *Origem:* Ruínas urbanas e zonas de sucata.
+    * *Características:* Sobreviventes natos, excelentes batedores.
+10. **Kivahr**
+    * *Origem:* Planos sombrios ou regiões mágicas.
+    * *Características:* Traços demoníacos, afinidade com magia.
+11. **Nir'ae**
+    * *Origem:* Bosques ancestrais.
+    * *Características:* Longevidade, conexão espiritual.
+12. **Signborn**
+    * *Origem:* Anomalias cósmicas.
+    * *Características:* Marcas brilhantes, poder mágico inato.
+13. **Thronling**
+    * *Origem:* Selvas vivas e pântanos.
+    * *Características:* Matéria vegetal, regeneração natural.
+14. **Wirrun**
+    * *Origem:* Estepes selvagens.
+    * *Características:* Aparência bestial, sentidos apurados.
+15. **Vrjnhar**
+    * *Origem:* Tundras geladas e montanhas.
+    * *Características:* Resistência ao frio, físico imponente.
+16. **Zeph**
+    * *Origem:* Planícies ventosas.
+    * *Características:* Movimentos rápidos, afinidade com o ar.
+
+---
+
+> ** NOTA PARA O MESTRE:**
+> Se o jogador perguntar "quais as raças", cite esta lista acima.

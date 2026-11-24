@@ -1,0 +1,60 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Vento, Máscara, Aura, Conundrum, Magia]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide (Zeph) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,60 e 1,85 |
+| **Tempo de vida** | 190-220 anos |
+| **Movimento** | Caminhada 9m (30ft) |
+| **Línguas** | Comum |
+
+## Habilidades de raça
+
+### Arcane Countenance
+
+A máscara de um Zeph é capaz de uma maleabilidade sobrenatural limitada. Você pode alterar ligeiramente sua máscara para comunicação regular e expressividade emocional.
+
+Quando você morre, **apenas sua máscara permanece**. Sua máscara conta como seus **restos físicos** para os propósitos de magias ou efeitos mágicos que visam uma criatura falecida.
+
+Como uma **Ação**, você pode usar esta característica para alterar temporariamente sua máscara e ganhar **Vantagem** em um teste de perícia de **Enganação, Intimidação ou Persuasão**. Quando você ativa esta habilidade, você deve escolher qual tipo de semblante assume pela duração.
+
+- Um **Semblante Inescrutável** (Inscrutable Visage) fornece **Vantagem** para testes de Enganação.
+- Um **Semblante Ameaçador** (Menacing Visage) fornece **Vantagem** para testes de Intimidação.
+- Um **Semblante Sedutor** (Beguiling Visage) fornece **Vantagem** para testes de Persuasão.
+
+Você pode usar esta característica um número de vezes igual ao seu **bônus de proficiência**. Você recupera quaisquer usos gastos quando termina um **descanso longo**.
+
+### Feitiços Nascidos do Vento
+
+Você pode conjurar a magia simples (cantrip) **Consertar (Mending)**.
+
+A partir do **3º nível**, você pode conjurar a magia **Queda Suave (Feather Fall)**.
+
+A partir do **5º nível**, você pode conjurar a magia **Levitar (Levitate)**.
+
+Você pode conjurar cada uma destas magias **uma vez por dia** e não pode conjurá-las novamente até terminar um **descanso longo**. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia (spell slots) que você possua do nível apropriado.
+
+**Inteligência, Sabedoria ou Carisma** é a sua habilidade de conjuração para estas magias quando você as conjura com esta característica (escolha quando você seleciona esta raça). Nenhuma destas magias requer **componentes de magia** quando você as conjura com esta característica.
+
+## Detalhes da raça
+
+Os Zeph são ventos mágicos que se condensaram em forma humana, criados a partir das rajadas primordiais da Lua do Vento, Aura. Sua forma semi-corpórea e semitransparente pode variar, mas geralmente é suave e leve, sendo as roupas e os objetos que carregam responsáveis por grande parte de sua silhueta física. O corpo principal de um Zeph geralmente é cinza-tempestade, mas suas extremidades podem apresentar uma ampla gama de cores e brilhos. Frequentemente, a cor mais vibrante é vista em seus cabelos, que se estendem por trás da máscara em configurações elaboradas (e às vezes desafiando a gravidade).
+
+Cada Zeph nasce com uma máscara, que muda conforme o próprio Zeph evolui. As máscaras podem parecer flutuar no ar diante de um Zeph, mas na verdade representam a essência de quem cada Zeph é, tanto biológica quanto espiritualmente. Embora os Zeph sejam corpóreos o suficiente para sofrer danos por contato físico direto, eles são particularmente vulneráveis se sua máscara for danificada de alguma forma, e fazem o possível para desviar ou evitar qualquer golpe que possa prejudicá-la, muitas vezes usando a magia do vento que provém de sua conexão com Aura. Os Zeph também podem usar suas máscaras para expressar emoções, alterando-as à vontade para refletir sua personalidade atual.
+
+## Biologia
+
+A máscara de um Zeph é a fonte de sua constituição física e potência espiritual. Quanto mais danificado ou exausto um Zeph fica, mais insubstancial sua forma física geralmente se torna, mas a máscara permanece intacta. Acredita-se que a máscara ajude os Zeph a se recuperarem fisicamente de ferimentos, já que eles são especialmente vulneráveis se suas máscaras forem danificadas de alguma forma. Além disso, suas máscaras permanecem intactas após a morte, ao contrário do resto de seus corpos, que se dissipam com o tempo.
+
+A forma por trás da máscara de um Zeph é parcialmente translúcida e parcialmente incorpórea — um reflexo da magia do vento que eles possuem devido à sua ligação com Aura. Embora possuam forma física suficiente para usar roupas, carregar objetos e sofrer danos, a capacidade dos Zeph de alterar os contornos de sua forma turbulenta pode torná-los alvos difíceis de atingir em situações de combate.
+
+Ao contrário de muitas das raças humanoides de Ember, os Zeph não se reproduzem naturalmente. Novos Zeph geralmente surgem espontaneamente dos ventos de Aura, encontrando o caminho para a cidade de Conundrum por instinto. A propagação dos Zeph em Ember já foi observada, mas não é bem compreendida, além do fato de que seu surgimento geralmente coincide com o zênite da Lua do Vento.
+
+## Conexões culturais
+
+A maioria dos Zeph habita a cidade-estado de Conundrum, localizada no núcleo oco da Lua do Vento, mas na era moderna, alguns buscaram seu propósito em outros lugares, explorando as profundezas do Reino Interior de Primordis ou viajando pela superfície de Ember. Como sua presença em Ember é bastante rara, e geralmente chegam a Ember em busca de algo que não encontraram em Conundrum ou em Aura de forma mais ampla, os Zeph em Ember geralmente levam vidas solitárias ou se concentram em estabelecer conexões com pessoas de outras origens e culturas, usando essas conexões pessoais como parâmetro para guiar suas vidas e interagir com o mundo ao seu redor.

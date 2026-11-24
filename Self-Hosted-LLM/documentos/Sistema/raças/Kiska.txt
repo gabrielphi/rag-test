@@ -1,0 +1,45 @@
+---
+tipo_documento: Raça
+source_book: Guia de Ember
+tags: [Humanoide, Felino, Sombra, Magia, Furtividade, Casia]
+---
+## **Características da raça**
+
+| **Tipo** | Humanoide |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,72 e 1,93 |
+| **Tempo de vida** | 120-160 anos |
+| **Movimento** | Caminhada 9m (30ft) |
+| **Línguas** | Comum, Primordial |
+| Sentidos | Visão no escuro (60ft) |
+
+## Habilidades de raça
+
+### Salto ágil
+
+Você utiliza uma reserva limitada de energia para realizar um salto espetacular. Até o início do seu próximo turno, sua **distância de salto é triplicada**.
+
+Você pode usar esta característica um número de vezes igual ao seu **bônus de proficiência**. Você recupera quaisquer usos gastos desta característica quando termina um **descanso curto**.
+
+### Shadowmeld
+
+Você se mistura à escuridão sem esforço. Enquanto estiver em **penumbra ou escuridão**, você pode usar uma **Ação Bônus** para realizar a ação **Esconder-se (Hide)**.
+
+A partir do **3º nível**, você pode conjurar a magia **Passo Sem Pegadas (Pass without Trace)** com esta característica uma vez por descanso longo. Você pode conjurar esta magia vezes adicionais se gastar um espaço de magia (spell slot) do nível apropriado que você possua. Ao conjurar *Passo Sem Pegadas* usando esta característica, os efeitos da magia se aplicam **apenas enquanto você estiver em penumbra ou escuridão**.
+
+## Detalhes da raça
+
+Embora tenham se passado eras desde que os Kiska deixaram seus ancestrais Casia no Reino Interior de Primordis e vieram para Ember, eles ainda mantêm muitas conexões com suas raízes ancestrais. Fisicamente, possuem várias características felinas, incluindo orelhas e ombros cobertos de pelos, dedos semelhantes a garras, caudas longas e espessas e cabelos que lembram uma juba. Esses cabelos costumam ser usados compridos para exibir tanto suas raízes brilhantes quanto seu comprimento impressionante, e geralmente apresentam tons de vermelho, amarelo e laranja que combinam com a cor dos olhos dos Kiska.
+
+Além de sua aparência, todos os Kiska mantêm alguma conexão com a magia das sombras comum em Primordis, o que lhes confere a capacidade de se camuflar nas sombras ou se misturar à multidão sem serem notados, apesar de sua aparência marcante. Muitos são atraídos pela conjuração de feitiços, sentindo uma sensação de familiaridade ao praticar magia, especialmente com feitiços que utilizam escuridão, sombras ou ilusão. Mesmo aqueles Kiska que não usam magia têm uma percepção geral de quando ela está sendo usada ao seu redor e um instinto para quando podem estar sob ameaça, embora isso raramente seja específico ou direcionado o suficiente para que consigam identificar a fonte exata.
+
+## Biologia
+
+Os Kiska são humanoides, embora possuam diversas adaptações que os tornam fortes e ágeis. Suas articulações hiperflexíveis permitem que se virem e se curvem de maneiras que muitos outros não conseguem, e são capazes de explosões curtas de velocidade quando necessário, embora isso geralmente não se traduza em resistência a longo prazo. Essa característica, assim como seus traços físicos semelhantes aos de felinos, é considerada um resultado de seus ancestrais Casia, que são conhecidos predadores de emboscada. Os Kiska também possuem olhos sensíveis à luz, o que lhes confere a capacidade de enxergar bem no escuro e em ambientes com pouca luz e, para alguns, de perceber a ressonância da magia no mundo quando ela é intensa o suficiente, como acontece durante os zênites lunares ou na presença de artefatos poderosos.
+
+Embora os Kiska geralmente se destaquem em Ember, devido à sua relativa raridade, cabelos de cores vibrantes e caudas longas, eles têm a capacidade de se camuflar nas sombras quando desejam, desfocando os contornos de seus corpos e cabelos para se misturarem às sombras e se tornarem quase invisíveis para aqueles que não estão totalmente focados neles.
+
+## Conexões culturais
+
+Os Kiska vivem em Ember há gerações, desde os tempos da Fragmentação, mas sua população é tão pequena que eles sempre tiveram mais probabilidade de se misturar a outras culturas do que de criar uma cultura própria. Sua conexão com a magia dos Planos Interiores, que poucos outros compartilham, também pode dar aos Kiska a sensação de que são mais evoluídos do que outras raças e que devem observá-las em vez de se integrar verdadeiramente a elas, embora essa atitude varie bastante de um Kiska para outro.

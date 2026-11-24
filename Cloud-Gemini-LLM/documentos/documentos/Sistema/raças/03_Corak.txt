@@ -1,0 +1,45 @@
+### Corak
+
+## **Características da raça**
+
+| **Tipo** | Humanoide (Corak) |
+| --- | --- |
+| **Tamanho** | Médio |
+| **Altura** | Entre 1,87 e 2,26 |
+| **Tempo de vida** | 450-600 anos |
+| **Movimento** | Caminhada 7,5m (25ft) |
+| **Línguas** | Comum, Lunix |
+
+## Habilidades de raça
+
+### Feridas cristalizadas.
+
+Quando voce é reduzido a zero pontos de vida, mas não foi morto imediamente, uma carapaça cristalina forma ao redor do seu corpo. Até o fim do seu próximo turno nenhum dano que você levar resulta em um teste de salvaguarda contra morte e no fim do seu próximo turno você ganha consciência novamente e ganhando pontos de vida igual ao seu modificador de constituição.
+
+Você não pode usar isso novamente até que você finalize um descanso longo
+
+### Forma de leviathan
+
+Sua pele grossa e parcialmente metalica provem uma proteção natural para golpes. Enquanto você não estiver vestindo nenhuma armadura sua classe de armadura é igual a 13 + bonus de constituição. Você pode usar escudo e ainda ganhar esse beneficio.
+
+Você não tem agilidade como consequencia desse corpo pesado. Sua caminhada base é reduzida para 25ft.
+
+## Detalhes da raça
+
+Os Cor'ak são únicos entre as raças de Ember, descendendo de Leviatãs primordiais e herdando sua considerável força e poder. Sua pele é resistente, coriácea e infundida com energias elementais da terra e poder primordial. Isso não se limita apenas à pele externa, que é dura e resistente, mas também à pele mais macia na parte interna dos braços, mãos e peito. Seus corpos inteiros possuem uma notável resistência a ataques físicos, e essa resistência é tão forte em alguns indivíduos que eles geralmente sentem pouca necessidade de armadura. A pele de um Cor'ak também é comumente marcada por sutis padrões em espiral de várias cores, correspondentes a cristais rochosos vulcânicos. Essas marcas nem sempre são óbvias à distância, mas pequenas linhas entrelaçadas cobrem o peito, o abdômen e o tronco, parecendo finas fissuras na rocha. No geral, os Cor'ak são grandes, volumosos e robustos, muitas vezes capazes de manter músculos impressionantes com pouco esforço, graças ao seu metabolismo único. Além disso, eles possuem apenas três dedos grossos nas mãos e nos pés.
+
+A característica mais distintiva de um Cor'ak são suas estranhas estruturas faciais e grandes coroas, geralmente circulares, de material rochoso no topo de suas cabeças. Essa coroa ou crista frequentemente apresenta uma cor e textura semelhantes a osso ou chifre, mas é muito mais durável, com pequenas formações rochosas cristalinas brilhando em sua superfície. Geralmente, pequenas protuberâncias rochosas ou espinhos vestigiais do mesmo material quase inquebrável podem surgir ao lado das coroas principais, no rosto, pescoço, ombros e antebraços, à medida que um Cor'ak envelhece.
+
+Os olhos de um Cor'ak são orbes cristalinos brilhantes, geralmente de uma única cor vibrante que combina com os pequenos materiais cristalinos incrustados em suas coroas. Os Cor'ak têm visão ruim no geral, encontrando dificuldade em acompanhar movimentos rápidos e ataques velozes. Isso geralmente piora com a idade, e eles se tornam lentos e metódicos em seus movimentos, preferindo realizar todas as tarefas diárias com calma.
+
+## Biologia
+
+Os Cor'ak possuem uma estrutura densa de órgãos internos que se assemelha mais à de seus ancestrais Leviatãs, o que os ajuda a suportar forças físicas extremas e fortes efeitos gravitacionais, resistindo a golpes avassaladores com facilidade. Mesmo que a pele resistente de um Cor'ak seja perfurada, eles não são particularmente vulneráveis e sentem apenas uma dor leve. Quando gravemente feridos, seu sangue rico em cristais pode se expandir ao redor da ferida, criando uma carapaça rochosa e cristalina. Essa carapaça ajuda a selar a ferida rapidamente e protege o Cor'ak de danos adicionais. Diz-se também que, quando os Cor'ak morrem, essa carapaça às vezes pode cobrir seus corpos inteiros, e eles podem escolher permanecer dentro de seus corpos como espíritos adormecidos em vez de seguirem para as Terras Espirituais. Há rumores de que, após milhares de anos, eles podem renascer e caminhar novamente pela superfície de Ember.
+
+Os Cor'ak são uma das raças mais grandes e robustas de Ember e, entre as cidades e culturas de Aterica, muitas vezes se sentem deslocados e desconfortáveis. Isso é intensificado por sua origem primordial e a aversão instintiva a ambientes urbanos, o que os leva a evitar esses lugares em geral. Embora raramente estudados em detalhes, os Cor'ak também parecem possuir uma rara capacidade de causar medo em outras raças, especialmente quando aparecem repentinamente na escuridão. Esse medo geralmente passa rapidamente, mas acredita-se que a aparência de um Cor'ak seja semelhante à de um antigo predador materializado, o que é, de certa forma, verdade em muitos aspectos.
+
+## Conexões culturais
+
+A linhagem Cor’ak é responsável por estabelecer uma das culturas mais antigas que Ember já conheceu: a Mazira. Os Mazira persistiram por incontáveis milhares de anos nas terras distantes de Akazea. Eles viviam em relativa paz ao lado dos Leviatãs, como sábios e guardiões da terra. Eventualmente, em algum momento durante a expansão inicial dos humanos para fora da Península de Aran, eles navegaram pelo Mar da Travessia e encontraram os Mazira pela primeira vez. Ao longo dos séculos, os humanos se tornaram a linhagem dominante, crescendo em população e construindo cidades e nações inteiras, mas fizeram isso ao lado dos nativos Cor'ak. Isso significou que a cultura Mazira permaneceu culturalmente predominante. Embora existam diferenças em relação às crenças mais antigas, muitos Cor'ak acreditam que a cultura Mazira hoje continua suas tradições originais. Atualmente, a cultura Mazira é representada por uma variedade relativamente diversa de linhagens, com uma grande população de humanos, mas os Cor'ak são muito reverenciados e respeitados.
+
+Fora de Akazea, os Cor'ak são extremamente raros. Eles raramente viajam para fora de sua terra natal, mas recentemente, pequenos grupos de exploradores curiosos e Cor'ak mais aventureiros foram vistos em reinos distantes, como as Terras Natais de Lumek, a República Casciliana ou a resplandecente Ordain. No entanto, a maioria dos Cor'ak encontrados nesses lugares geralmente consegue rastrear sua história familiar até seu continente natal.

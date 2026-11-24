@@ -1,0 +1,21 @@
+---
+tipo_documento: lua
+source_book: Guia de Ember
+tags: [Fogo, Ruína, Cinzas, Traição, Renascimento, Franqueza]
+---
+
+# Ragen: A Lua Carbonizada (The Charred Moon)
+
+A lenda conta que a superfície de Ragen foi outrora coberta por bosques envoltos em chamas de fogo vivo (living fire), onde seres radiantes e criaturas de fogo e fumaça prosperavam em meio a florestas ardentes. Quando o cosmos foi dilacerado durante o Estilhaçamento (The Shattering), o brilho de Ragen atraiu a malícia das trevas, e seu reino outrora florescente foi engolfado por tempestades de cinzas. Os Pyrrhen (Pyrrhen) lutaram para preservar seu mundo, mas o fogo voltou-se contra si mesmo, e suas cidades foram perdidas sob ondas de magia mortal. Agora, restam apenas alguns remanescentes bruxuleantes daqueles bosques eternos, cercados por um deserto de vidro enegrecido assombrado por ecos de chama e sombra.
+
+**Características Concedidas — Sintonização com Ragen (Ragen Attunement)**
+* **Palavras-chave:** Fogo (Fire), Traição (Betrayal), Renascimento (Rebirth)
+* **Ideal:** Direcionamento (Directness)
+* **Era:** Eras Incontáveis (Countless Ages)
+* **Outros Nomes:** A Lua Carbonizada (The Charred Moon), A Coroa de Brasas (The Ember Crown), A Chama Quebrada (The Broken Flame)
+
+Ragen foi outrora um mundo deslumbrante de fogo vivo (living fire), onde florestas fundidas e rios de chamas queimavam com vida. Os Pyrrhen (Pyrrhen), seres de fogo que receberam forma, cuidavam deste reino incandescente, acreditando que através da chama poderiam expressar a verdade do cosmos: o ciclo infinito de morte, vida e renascimento. Eles forjaram cidades de vidro e madeira que não queimava, com suas torres erguendo-se em direção aos céus como tochas no firmamento.
+
+Quando o cosmos se fraturou durante o Estilhaçamento (The Shattering), o brilho de Ragen ardeu desafiadoramente contra a escuridão invasora. No entanto, sua chama vivificante foi vista como um desafio e, por isso, foi alvo de forças de poder terrível com ódio e malícia. Diz-se que a lua entrou em erupção em tempestades de cinzas alienígenas negras enquanto a magia de além rasgava sua superfície, com seus continentes sendo consumidos durante uma guerra que despedaçou a lua. Em meio ao caos, os Pyrrhen (Pyrrhen) pareceram voltar-se uns contra os outros; alguns esforçando-se para preservar seu lar radiante, outros rendendo-se à corrupção que inundou seu mundo. Quando as chamas finalmente diminuíram, Ragen era pouco mais que uma cicatriz no cosmos, suas florestas outrora vivas reduzidas a desertos de vidro e cinzas.
+
+Da superfície de Ember (Ember), Ragen agora queima fracamente, uma chama ferida que se recusa a morrer. Seu brilho vermelho pálido lembra aos mortais sua glória outrora cintilante e seu triste destino. Para o povo de Ember (Ember), a Lua Carbonizada (The Charred Moon) é tanto um presságio quanto uma professora: o fogo concede calor, vida e clareza, mas quando deixado sem controle, consome tudo o que toca.
